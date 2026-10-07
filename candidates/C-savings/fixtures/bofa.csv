@@ -1,0 +1,11 @@
+Description,,Summary Amt.
+Beginning balance as of 01/01/2026,,"1,000.00"
+Total credits,,"3,000.00"
+Total debits,,"-120.00"
+Ending balance as of 03/31/2026,,"3,880.00"
+
+Date,Description,Amount,Running Bal.
+01/01/2026,Beginning balance as of 01/01/2026,,"1,000.00"
+01/02/2026,"SPOTIFY USA 8777781161","-11.99","988.01"
+01/15/2026,"GUSTO PAY 123456 PPD","3,000.00","3,988.01"
+02/02/2026,"SPOTIFY USA 8777781161","-11.99","3,976.02"

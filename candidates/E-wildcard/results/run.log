@@ -1,0 +1,9 @@
+[   21s] pv0kw|CA_TOU_illustrative: mpc_vs_default=149 mpc_vs_no_batt=149 pf_vs_no_batt=159
+[   43s] pv0kw|cheap_nights_illustrative: mpc_vs_default=267 mpc_vs_no_batt=267 pf_vs_no_batt=285
+[   64s] pv0kw|flat_illustrative: mpc_vs_default=0 mpc_vs_no_batt=0 pf_vs_no_batt=0
+[   85s] pv6kw|CA_TOU_illustrative: mpc_vs_default=-6 mpc_vs_no_batt=1105 pf_vs_no_batt=1115
+[  107s] pv6kw|cheap_nights_illustrative: mpc_vs_default=5 mpc_vs_no_batt=363 pf_vs_no_batt=380
+[  129s] pv6kw|flat_illustrative: mpc_vs_default=209 mpc_vs_no_batt=0 pf_vs_no_batt=0
+[  140s] sensitivity pv0|CA_TOU done
+[  145s] sensitivity pv0|cheap_nights done
+[  152s] sensitivity pv6|CA_TOU done

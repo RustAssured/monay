@@ -12,19 +12,19 @@ from dataclasses import dataclass, fields, replace
 # ---------------------------------------------------------------- (a) household use
 @dataclass
 class HouseholdAssumptions:
-    expected_savings_per_year: float = 494.0   # confidence-weighted, from the synthetic benchmark (NOT real data)
+    expected_savings_per_year: float = 207.0   # MEDIAN confidence-weighted value on the synthetic benchmark (NOT real data)
     realisation_rate: float = 0.5               # extra haircut: fraction of "expected" a real user actually captures
     setup_hours: float = 1.5                    # export CSV/OFX from banks, run, read report, make calls
-    monthly_hours: float = 0.25                 # monthly re-run
+    rerun_hours_per_year: float = 1.0           # quarterly re-run, ~15 min each
     value_of_time_per_hour: float = 25.0        # opportunity cost of the user's time
     tool_cost_per_year: float = 0.0             # open-source local use
 
 
 HOUSEHOLD_RANGES = {
-    "expected_savings_per_year": (150.0, 494.0, 1000.0),
+    "expected_savings_per_year": (54.0, 207.0, 1493.0),   # synthetic p10 / median / p90
     "realisation_rate": (0.25, 0.5, 0.8),
     "setup_hours": (0.75, 1.5, 4.0),
-    "monthly_hours": (0.1, 0.25, 0.75),
+    "rerun_hours_per_year": (0.5, 1.0, 3.0),
     "value_of_time_per_hour": (10.0, 25.0, 60.0),
     "tool_cost_per_year": (0.0, 0.0, 36.0),
 }
@@ -32,7 +32,7 @@ HOUSEHOLD_RANGES = {
 
 def household_net(a: HouseholdAssumptions) -> dict:
     gain = a.expected_savings_per_year * a.realisation_rate
-    time_cost = (a.setup_hours + 12 * a.monthly_hours) * a.value_of_time_per_hour
+    time_cost = (a.setup_hours + a.rerun_hours_per_year) * a.value_of_time_per_hour
     cost = time_cost + a.tool_cost_per_year
     return {"gain": gain, "time_cost": time_cost, "cash_cost": a.tool_cost_per_year, "net": gain - cost,
             "cash_net": gain - a.tool_cost_per_year,
@@ -47,9 +47,10 @@ class ProductAssumptions:
     payment_fixed: float = 0.30            # per-charge fixed fee
     refund_rate: float = 0.08              # money-back guarantee: refund if it finds < price in savings
     support_hours_per_customer: float = 0.2
-    operator_hourly_cost: float = 0.0      # 0 = founder time not cashed out (shown separately)
+    operator_hourly_cost: float = 30.0     # used only for the "incl. founder time" figure
+    maintenance_hours_per_year: float = 120.0  # bank-format drift, releases, docs (founder time)
     fixed_costs_per_year: float = 1500.0   # domain, static hosting, code-signing certs, accounting, LLC fees
-    free_users_year1: float = 3000.0       # organic: open-source repo, honest write-ups, community posts
+    free_users_year1: float = 1500.0       # organic: open-source repo, honest write-ups, community posts
     conversion_rate: float = 0.04          # free -> paid
     paid_marketing: float = 0.0            # cash spent on ads in year 1
     paid_cac: float = 40.0                 # cost per paying customer from ads
@@ -61,7 +62,7 @@ PRODUCT_RANGES = {
     "refund_rate": (0.03, 0.08, 0.20),
     "support_hours_per_customer": (0.05, 0.2, 0.5),
     "fixed_costs_per_year": (800.0, 1500.0, 3000.0),
-    "free_users_year1": (500.0, 3000.0, 15000.0),
+    "free_users_year1": (200.0, 1500.0, 8000.0),
     "conversion_rate": (0.01, 0.04, 0.08),
     "annual_retention": (0.4, 0.6, 0.8),
 }
@@ -72,12 +73,15 @@ def product_year1(a: ProductAssumptions) -> dict:
     ad_paid = a.paid_marketing / a.paid_cac if a.paid_cac else 0.0
     customers = organic_paid + ad_paid
     net_price = a.price_per_year * (1 - a.refund_rate) - (a.price_per_year * a.payment_pct + a.payment_fixed)
-    contribution = net_price - a.support_hours_per_customer * a.operator_hourly_cost
+    contribution = net_price  # cash contribution; founder time is costed separately below
     revenue = customers * a.price_per_year * (1 - a.refund_rate)
     net = customers * contribution - a.fixed_costs_per_year - a.paid_marketing
+    founder_hours = a.maintenance_hours_per_year + customers * a.support_hours_per_customer
+    net_incl_time = net - founder_hours * a.operator_hourly_cost
     be_customers = a.fixed_costs_per_year / contribution if contribution > 0 else float("inf")
     ltv = contribution / (1 - a.annual_retention) if a.annual_retention < 1 else float("inf")
     return {"customers": customers, "contribution_per_customer": contribution, "revenue": revenue, "net": net,
+            "net_incl_time": net_incl_time, "founder_hours": founder_hours,
             "breakeven_customers": be_customers, "ltv": ltv, "ltv_to_cac": ltv / a.paid_cac if a.paid_cac else None,
             "support_hours": customers * a.support_hours_per_customer}
 
@@ -133,11 +137,15 @@ def format_economics(household_savings=None):
             f"- ${pa.fixed_costs_per_year:,.0f} fixed = net ${p['net']:,.0f}. Break-even at "
             f"{p['breakeven_customers']:.0f} paying customers. LTV ${p['ltv']:.0f} vs ad CAC ${pa.paid_cac:.0f} "
             f"(LTV/CAC {p['ltv_to_cac']:.2f}) -> paid ads are {'viable' if p['ltv_to_cac'] > 3 else 'NOT viable'} "
-            f"at base assumptions; growth must be organic. Support load ~{p['support_hours']:.0f} h/yr unpaid founder time."]
+            f"at base assumptions; growth must be organic. Founder time ~{p['founder_hours']:.0f} h/yr; valued at "
+            f"${pa.operator_hourly_cost:.0f}/h the year-1 net incl. time is ${p['net_incl_time']:,.0f}."]
     b, rows = sensitivity(pa, PRODUCT_RANGES, product_year1)
     out += ["", "| input | low | high | net@low | net@high |", "|---|---|---|---|---|"]
     out += [f"| {r[0]} | {r[1]:g} | {r[2]:g} | {r[3]:,.0f} | {r[4]:,.0f} |" for r in rows]
     mc = monte_carlo(pa, PRODUCT_RANGES, product_year1)
-    out.append(f"\nMonte Carlo: p05 ${mc['p05']:,.0f}, median ${mc['p50']:,.0f}, p95 ${mc['p95']:,.0f}; "
-               f"P(year-1 net>0) = {mc['prob_positive']:.0%}.")
+    out.append(f"\nMonte Carlo (cash): p05 ${mc['p05']:,.0f}, median ${mc['p50']:,.0f}, p95 ${mc['p95']:,.0f}; "
+               f"P(year-1 cash net>0) = {mc['prob_positive']:.0%}.")
+    mt = monte_carlo(pa, PRODUCT_RANGES, product_year1, metric="net_incl_time")
+    out.append(f"Monte Carlo (incl. founder time): p05 ${mt['p05']:,.0f}, median ${mt['p50']:,.0f}, "
+               f"p95 ${mt['p95']:,.0f}; P(net incl. time>0) = {mt['prob_positive']:.0%}.")
     return "\n".join(out)

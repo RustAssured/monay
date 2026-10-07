@@ -170,16 +170,23 @@ def self_consumption_controller(load, pv, b: Battery):
     return ctl
 
 
-def tou_rule_controller(load, pv, imp, b: Battery):
-    """Simple vendor-style 'time-based control': store solar; discharge only in hours whose
-    import price exceeds that day's minimum price; never grid-charge."""
+def tou_rule_controller(load, pv, imp, b: Battery, grid_charge: bool = False):
+    """Vendor-style 'time-based control' (a well-configured app setting, no optimisation).
+    grid_charge=False: store solar; discharge only in hours priced above the day's minimum.
+    grid_charge=True : additionally fill the battery from the grid in the day's cheapest hours and
+                       discharge only when the price clears the analytic arbitrage threshold."""
     T = len(load)
     daymin = np.repeat(imp.reshape(-1, 24).min(axis=1), 24)[:T] if T % 24 == 0 else np.full(T, imp.min())
+    thresh = (daymin / b.eta_charge + b.deg_cost_per_kwh) / b.eta_discharge
 
     def ctl(t, soc):
         s = pv[t] - load[t]
         if s > 0:
             return s * b.eta_charge
+        if grid_charge:
+            if imp[t] <= daymin[t] + 1e-6:
+                return b.soc_max - soc
+            return s / b.eta_discharge if imp[t] >= thresh[t] else 0.0
         if imp[t] > daymin[t] + 1e-6:
             return s / b.eta_discharge
         return 0.0

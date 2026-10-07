@@ -1,0 +1,706 @@
+{
+ "assumptions": {
+  "discount_rate": 0.05,
+  "battery_life_years": 12,
+  "capacity_fade_per_year": 0.02,
+  "installed_battery_cost_usd": 12000.0,
+  "federal_tax_credit": 0.0,
+  "controller_hardware_usd": 80.0,
+  "controller_running_cost_usd_per_year": 5.0,
+  "operator_setup_hours": 6.0
+ },
+ "battery": {
+  "capacity_kwh": 13.5,
+  "reserve_frac": 0.2,
+  "power_kw": 5.0,
+  "eta_charge": 0.95,
+  "eta_discharge": 0.95,
+  "deg_cost_per_kwh": 0.03,
+  "allow_grid_charge": true,
+  "allow_battery_export": false
+ },
+ "cases": {
+  "pv0kw|CA_TOU_illustrative": {
+   "per_household": [
+    {
+     "seed": 0,
+     "total_cost": {
+      "no_battery": 2790.2801,
+      "default_self_consumption": 2790.2801,
+      "vendor_tou_rule": 2790.2801,
+      "perfect_foresight": 2632.9869,
+      "optimizer_mpc": 2643.2766
+     },
+     "cycles_mpc": 97.1388,
+     "mpc_vs_default": 147.0035,
+     "mpc_vs_vendor_tou": 147.0035,
+     "pf_vs_default": 157.2933,
+     "mpc_vs_no_battery": 147.0035,
+     "pf_vs_no_battery": 157.2933
+    },
+    {
+     "seed": 1,
+     "total_cost": {
+      "no_battery": 2790.1421,
+      "default_self_consumption": 2790.1421,
+      "vendor_tou_rule": 2790.1421,
+      "perfect_foresight": 2630.3448,
+      "optimizer_mpc": 2638.955
+     },
+     "cycles_mpc": 100.0761,
+     "mpc_vs_default": 151.1871,
+     "mpc_vs_vendor_tou": 151.1871,
+     "pf_vs_default": 159.7973,
+     "mpc_vs_no_battery": 151.1871,
+     "pf_vs_no_battery": 159.7973
+    },
+    {
+     "seed": 2,
+     "total_cost": {
+      "no_battery": 2791.8869,
+      "default_self_consumption": 2791.8869,
+      "vendor_tou_rule": 2791.8869,
+      "perfect_foresight": 2633.1987,
+      "optimizer_mpc": 2642.2858
+     },
+     "cycles_mpc": 98.6222,
+     "mpc_vs_default": 149.6011,
+     "mpc_vs_vendor_tou": 149.6011,
+     "pf_vs_default": 158.6882,
+     "mpc_vs_no_battery": 149.6011,
+     "pf_vs_no_battery": 158.6882
+    }
+   ],
+   "summary": {
+    "mpc_vs_default": {
+     "mean": 149.2639,
+     "min": 147.0035,
+     "max": 151.1871
+    },
+    "mpc_vs_vendor_tou": {
+     "mean": 149.2639,
+     "min": 147.0035,
+     "max": 151.1871
+    },
+    "pf_vs_default": {
+     "mean": 158.5929,
+     "min": 157.2933,
+     "max": 159.7973
+    },
+    "mpc_vs_no_battery": {
+     "mean": 149.2639,
+     "min": 147.0035,
+     "max": 151.1871
+    },
+    "pf_vs_no_battery": {
+     "mean": 158.5929,
+     "min": 157.2933,
+     "max": 159.7973
+    },
+    "cycles_mpc": {
+     "mean": 98.6124,
+     "min": 97.1388,
+     "max": 100.0761
+    },
+    "mpc_capture_of_perfect_foresight_vs_no_battery": 0.9412
+   }
+  },
+  "pv0kw|cheap_nights_illustrative": {
+   "per_household": [
+    {
+     "seed": 0,
+     "total_cost": {
+      "no_battery": 1168.4579,
+      "default_self_consumption": 1168.4579,
+      "vendor_tou_rule": 1168.4579,
+      "perfect_foresight": 884.1981,
+      "optimizer_mpc": 901.9805
+     },
+     "cycles_mpc": 366.5007,
+     "mpc_vs_default": 266.4774,
+     "mpc_vs_vendor_tou": 266.4774,
+     "pf_vs_default": 284.2598,
+     "mpc_vs_no_battery": 266.4774,
+     "pf_vs_no_battery": 284.2598
+    },
+    {
+     "seed": 1,
+     "total_cost": {
+      "no_battery": 1168.5568,
+      "default_self_consumption": 1168.5568,
+      "vendor_tou_rule": 1168.5568,
+      "perfect_foresight": 883.0865,
+      "optimizer_mpc": 900.7722
+     },
+     "cycles_mpc": 368.9196,
+     "mpc_vs_default": 267.7846,
+     "mpc_vs_vendor_tou": 267.7846,
+     "pf_vs_default": 285.4703,
+     "mpc_vs_no_battery": 267.7846,
+     "pf_vs_no_battery": 285.4703
+    },
+    {
+     "seed": 2,
+     "total_cost": {
+      "no_battery": 1168.1465,
+      "default_self_consumption": 1168.1465,
+      "vendor_tou_rule": 1168.1465,
+      "perfect_foresight": 883.5206,
+      "optimizer_mpc": 902.3647
+     },
+     "cycles_mpc": 367.2187,
+     "mpc_vs_default": 265.7817,
+     "mpc_vs_vendor_tou": 265.7817,
+     "pf_vs_default": 284.6259,
+     "mpc_vs_no_battery": 265.7817,
+     "pf_vs_no_battery": 284.6259
+    }
+   ],
+   "summary": {
+    "mpc_vs_default": {
+     "mean": 266.6812,
+     "min": 265.7817,
+     "max": 267.7846
+    },
+    "mpc_vs_vendor_tou": {
+     "mean": 266.6812,
+     "min": 265.7817,
+     "max": 267.7846
+    },
+    "pf_vs_default": {
+     "mean": 284.7853,
+     "min": 284.2598,
+     "max": 285.4703
+    },
+    "mpc_vs_no_battery": {
+     "mean": 266.6812,
+     "min": 265.7817,
+     "max": 267.7846
+    },
+    "pf_vs_no_battery": {
+     "mean": 284.7853,
+     "min": 284.2598,
+     "max": 285.4703
+    },
+    "cycles_mpc": {
+     "mean": 367.5464,
+     "min": 366.5007,
+     "max": 368.9196
+    },
+    "mpc_capture_of_perfect_foresight_vs_no_battery": 0.9364
+   }
+  },
+  "pv0kw|flat_illustrative": {
+   "per_household": [
+    {
+     "seed": 0,
+     "total_cost": {
+      "no_battery": 2100.0,
+      "default_self_consumption": 2100.0,
+      "vendor_tou_rule": 2100.0,
+      "perfect_foresight": 2100.0,
+      "optimizer_mpc": 2100.0
+     },
+     "cycles_mpc": 0.0,
+     "mpc_vs_default": 0.0,
+     "mpc_vs_vendor_tou": 0.0,
+     "pf_vs_default": 0.0,
+     "mpc_vs_no_battery": 0.0,
+     "pf_vs_no_battery": 0.0
+    },
+    {
+     "seed": 1,
+     "total_cost": {
+      "no_battery": 2100.0,
+      "default_self_consumption": 2100.0,
+      "vendor_tou_rule": 2100.0,
+      "perfect_foresight": 2100.0,
+      "optimizer_mpc": 2100.0
+     },
+     "cycles_mpc": 0.0,
+     "mpc_vs_default": 0.0,
+     "mpc_vs_vendor_tou": 0.0,
+     "pf_vs_default": 0.0,
+     "mpc_vs_no_battery": 0.0,
+     "pf_vs_no_battery": 0.0
+    },
+    {
+     "seed": 2,
+     "total_cost": {
+      "no_battery": 2100.0,
+      "default_self_consumption": 2100.0,
+      "vendor_tou_rule": 2100.0,
+      "perfect_foresight": 2100.0,
+      "optimizer_mpc": 2100.0
+     },
+     "cycles_mpc": 0.0,
+     "mpc_vs_default": 0.0,
+     "mpc_vs_vendor_tou": 0.0,
+     "pf_vs_default": 0.0,
+     "mpc_vs_no_battery": 0.0,
+     "pf_vs_no_battery": 0.0
+    }
+   ],
+   "summary": {
+    "mpc_vs_default": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "mpc_vs_vendor_tou": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "pf_vs_default": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "mpc_vs_no_battery": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "pf_vs_no_battery": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "cycles_mpc": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "mpc_capture_of_perfect_foresight_vs_no_battery": null
+   }
+  },
+  "pv6kw|CA_TOU_illustrative": {
+   "per_household": [
+    {
+     "seed": 0,
+     "total_cost": {
+      "no_battery": 1495.072,
+      "default_self_consumption": 389.8602,
+      "vendor_tou_rule": 501.1473,
+      "perfect_foresight": 386.8751,
+      "optimizer_mpc": 397.4464
+     },
+     "cycles_mpc": 314.0166,
+     "mpc_vs_default": -7.5862,
+     "mpc_vs_vendor_tou": 103.7009,
+     "pf_vs_default": 2.9851,
+     "mpc_vs_no_battery": 1097.6256,
+     "pf_vs_no_battery": 1108.1969
+    },
+    {
+     "seed": 1,
+     "total_cost": {
+      "no_battery": 1495.1591,
+      "default_self_consumption": 383.3375,
+      "vendor_tou_rule": 485.0218,
+      "perfect_foresight": 379.8954,
+      "optimizer_mpc": 389.0338
+     },
+     "cycles_mpc": 315.957,
+     "mpc_vs_default": -5.6963,
+     "mpc_vs_vendor_tou": 95.9881,
+     "pf_vs_default": 3.4421,
+     "mpc_vs_no_battery": 1106.1253,
+     "pf_vs_no_battery": 1115.2637
+    },
+    {
+     "seed": 2,
+     "total_cost": {
+      "no_battery": 1498.6438,
+      "default_self_consumption": 382.6282,
+      "vendor_tou_rule": 484.1963,
+      "perfect_foresight": 377.6992,
+      "optimizer_mpc": 387.0347
+     },
+     "cycles_mpc": 318.8606,
+     "mpc_vs_default": -4.4065,
+     "mpc_vs_vendor_tou": 97.1616,
+     "pf_vs_default": 4.929,
+     "mpc_vs_no_battery": 1111.6091,
+     "pf_vs_no_battery": 1120.9446
+    }
+   ],
+   "summary": {
+    "mpc_vs_default": {
+     "mean": -5.8963,
+     "min": -7.5862,
+     "max": -4.4065
+    },
+    "mpc_vs_vendor_tou": {
+     "mean": 98.9502,
+     "min": 95.9881,
+     "max": 103.7009
+    },
+    "pf_vs_default": {
+     "mean": 3.7854,
+     "min": 2.9851,
+     "max": 4.929
+    },
+    "mpc_vs_no_battery": {
+     "mean": 1105.12,
+     "min": 1097.6256,
+     "max": 1111.6091
+    },
+    "pf_vs_no_battery": {
+     "mean": 1114.8017,
+     "min": 1108.1969,
+     "max": 1120.9446
+    },
+    "cycles_mpc": {
+     "mean": 316.2781,
+     "min": 314.0166,
+     "max": 318.8606
+    },
+    "mpc_capture_of_perfect_foresight_vs_no_battery": 0.9913
+   }
+  },
+  "pv6kw|cheap_nights_illustrative": {
+   "per_household": [
+    {
+     "seed": 0,
+     "total_cost": {
+      "no_battery": 521.7907,
+      "default_self_consumption": 166.0242,
+      "vendor_tou_rule": 166.1719,
+      "perfect_foresight": 144.7041,
+      "optimizer_mpc": 161.9247
+     },
+     "cycles_mpc": 341.216,
+     "mpc_vs_default": 4.0995,
+     "mpc_vs_vendor_tou": 4.2471,
+     "pf_vs_default": 21.3202,
+     "mpc_vs_no_battery": 359.866,
+     "pf_vs_no_battery": 377.0866
+    },
+    {
+     "seed": 1,
+     "total_cost": {
+      "no_battery": 522.4552,
+      "default_self_consumption": 162.8141,
+      "vendor_tou_rule": 161.9519,
+      "perfect_foresight": 142.0052,
+      "optimizer_mpc": 157.3473
+     },
+     "cycles_mpc": 344.4668,
+     "mpc_vs_default": 5.4669,
+     "mpc_vs_vendor_tou": 4.6046,
+     "pf_vs_default": 20.8089,
+     "mpc_vs_no_battery": 365.1079,
+     "pf_vs_no_battery": 380.4499
+    },
+    {
+     "seed": 2,
+     "total_cost": {
+      "no_battery": 522.9354,
+      "default_self_consumption": 162.1148,
+      "vendor_tou_rule": 160.1697,
+      "perfect_foresight": 141.0791,
+      "optimizer_mpc": 157.9195
+     },
+     "cycles_mpc": 340.8406,
+     "mpc_vs_default": 4.1952,
+     "mpc_vs_vendor_tou": 2.2502,
+     "pf_vs_default": 21.0357,
+     "mpc_vs_no_battery": 365.0159,
+     "pf_vs_no_battery": 381.8564
+    }
+   ],
+   "summary": {
+    "mpc_vs_default": {
+     "mean": 4.5872,
+     "min": 4.0995,
+     "max": 5.4669
+    },
+    "mpc_vs_vendor_tou": {
+     "mean": 3.7006,
+     "min": 2.2502,
+     "max": 4.6046
+    },
+    "pf_vs_default": {
+     "mean": 21.0549,
+     "min": 20.8089,
+     "max": 21.3202
+    },
+    "mpc_vs_no_battery": {
+     "mean": 363.3299,
+     "min": 359.866,
+     "max": 365.1079
+    },
+    "pf_vs_no_battery": {
+     "mean": 379.7976,
+     "min": 377.0866,
+     "max": 381.8564
+    },
+    "cycles_mpc": {
+     "mean": 342.1745,
+     "min": 340.8406,
+     "max": 344.4668
+    },
+    "mpc_capture_of_perfect_foresight_vs_no_battery": 0.9566
+   }
+  },
+  "pv6kw|flat_illustrative": {
+   "per_household": [
+    {
+     "seed": 0,
+     "total_cost": {
+      "no_battery": -600.0,
+      "default_self_consumption": -392.5878,
+      "vendor_tou_rule": -596.5895,
+      "perfect_foresight": -600.0,
+      "optimizer_mpc": -600.0
+     },
+     "cycles_mpc": 0.0,
+     "mpc_vs_default": 207.4122,
+     "mpc_vs_vendor_tou": 3.4105,
+     "pf_vs_default": 207.4122,
+     "mpc_vs_no_battery": 0.0,
+     "pf_vs_no_battery": 0.0
+    },
+    {
+     "seed": 1,
+     "total_cost": {
+      "no_battery": -600.0,
+      "default_self_consumption": -391.5932,
+      "vendor_tou_rule": -596.5895,
+      "perfect_foresight": -600.0,
+      "optimizer_mpc": -600.0
+     },
+     "cycles_mpc": 0.0,
+     "mpc_vs_default": 208.4068,
+     "mpc_vs_vendor_tou": 3.4105,
+     "pf_vs_default": 208.4068,
+     "mpc_vs_no_battery": 0.0,
+     "pf_vs_no_battery": 0.0
+    },
+    {
+     "seed": 2,
+     "total_cost": {
+      "no_battery": -600.0,
+      "default_self_consumption": -390.0312,
+      "vendor_tou_rule": -596.5895,
+      "perfect_foresight": -600.0,
+      "optimizer_mpc": -600.0
+     },
+     "cycles_mpc": 0.0,
+     "mpc_vs_default": 209.9688,
+     "mpc_vs_vendor_tou": 3.4105,
+     "pf_vs_default": 209.9688,
+     "mpc_vs_no_battery": 0.0,
+     "pf_vs_no_battery": 0.0
+    }
+   ],
+   "summary": {
+    "mpc_vs_default": {
+     "mean": 208.5959,
+     "min": 207.4122,
+     "max": 209.9688
+    },
+    "mpc_vs_vendor_tou": {
+     "mean": 3.4105,
+     "min": 3.4105,
+     "max": 3.4105
+    },
+    "pf_vs_default": {
+     "mean": 208.5959,
+     "min": 207.4122,
+     "max": 209.9688
+    },
+    "mpc_vs_no_battery": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "pf_vs_no_battery": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "cycles_mpc": {
+     "mean": 0.0,
+     "min": 0.0,
+     "max": 0.0
+    },
+    "mpc_capture_of_perfect_foresight_vs_no_battery": null
+   }
+  }
+ },
+ "sensitivity": {
+  "pv0|CA_TOU": {
+   "spread_scale": {
+    "0.0": 0.0,
+    "0.5": 40.3094,
+    "1.0": 157.2933,
+    "1.5": 277.4357,
+    "2.0": 418.7125
+   },
+   "round_trip_eff": {
+    "0.8": 95.7353,
+    "0.85": 127.3046,
+    "0.9": 155.9371,
+    "0.95": 183.7307
+   },
+   "deg_cost_per_kwh": {
+    "0.0": 200.7381,
+    "0.03": 157.2933,
+    "0.06": 123.7094,
+    "0.1": 78.9308
+   },
+   "capacity_kwh": {
+    "5.0": 68.5305,
+    "10.0": 134.0757,
+    "13.5": 157.2933,
+    "20.0": 163.1509
+   },
+   "export_price_x": {
+    "0.0": 157.2933,
+    "1.0": 157.2933,
+    "3.0": 157.2933
+   }
+  },
+  "pv0|cheap_nights": {
+   "spread_scale": {
+    "0.0": 0.0,
+    "0.5": 72.4558,
+    "1.0": 284.2598,
+    "1.5": 501.4875,
+    "2.0": 718.7151
+   },
+   "round_trip_eff": {
+    "0.8": 228.1594,
+    "0.85": 256.3819,
+    "0.9": 282.9689,
+    "0.95": 308.1995
+   },
+   "deg_cost_per_kwh": {
+    "0.0": 402.1819,
+    "0.03": 284.2598,
+    "0.06": 168.1964,
+    "0.1": 59.5609
+   },
+   "capacity_kwh": {
+    "5.0": 129.0499,
+    "10.0": 236.1518,
+    "13.5": 284.2598,
+    "20.0": 337.6323
+   },
+   "export_price_x": {
+    "0.0": 284.2598,
+    "1.0": 284.2598,
+    "3.0": 284.2598
+   }
+  },
+  "pv6|CA_TOU": {
+   "spread_scale": {
+    "0.0": 848.4385,
+    "0.5": 978.1979,
+    "1.0": 1108.1969,
+    "1.5": 1238.2901,
+    "2.0": 1369.085
+   },
+   "round_trip_eff": {
+    "0.8": 1026.1886,
+    "0.85": 1067.8558,
+    "0.9": 1106.3609,
+    "0.95": 1141.8978
+   },
+   "deg_cost_per_kwh": {
+    "0.0": 1210.9788,
+    "0.03": 1108.1969,
+    "0.06": 1005.7335,
+    "0.1": 869.1155
+   },
+   "capacity_kwh": {
+    "5.0": 494.5551,
+    "10.0": 924.7333,
+    "13.5": 1108.1969,
+    "20.0": 1205.4344
+   },
+   "export_price_x": {
+    "0.0": 1287.7767,
+    "1.0": 1108.1969,
+    "3.0": 749.0386
+   }
+  },
+  "forecast_pv0|cheap_nights": {
+   "lookback_1d": 262.2616,
+   "lookback_7d": 266.4774,
+   "oracle_forecast": 280.7383,
+   "perfect_foresight_full_year": 284.2598
+  }
+ },
+ "economics": {
+  "pv0kw|CA_TOU_illustrative": {
+   "existing_owner_incremental_usd_per_year": 149.2639,
+   "existing_owner_net_npv": 944.1252,
+   "existing_owner_payback_years": 0.5545,
+   "new_battery_value_usd_per_year": 149.2639,
+   "new_battery_break_even_capex": 1200.5944,
+   "new_battery_npv_at_assumed_cost": -10799.4056
+  },
+  "pv0kw|cheap_nights_illustrative": {
+   "existing_owner_incremental_usd_per_year": 266.6812,
+   "existing_owner_net_npv": 1780.1168,
+   "existing_owner_payback_years": 0.3057,
+   "new_battery_value_usd_per_year": 266.6812,
+   "new_battery_break_even_capex": 2145.033,
+   "new_battery_npv_at_assumed_cost": -9854.967
+  },
+  "pv0kw|flat_illustrative": {
+   "existing_owner_incremental_usd_per_year": 0.0,
+   "existing_owner_net_npv": -118.6087,
+   "existing_owner_payback_years": null,
+   "new_battery_value_usd_per_year": 0.0,
+   "new_battery_break_even_capex": 0.0,
+   "new_battery_npv_at_assumed_cost": -12000.0
+  },
+  "pv6kw|CA_TOU_illustrative": {
+   "existing_owner_incremental_usd_per_year": -5.8963,
+   "existing_owner_net_npv": -160.5895,
+   "existing_owner_payback_years": null,
+   "new_battery_value_usd_per_year": 1105.12,
+   "new_battery_break_even_capex": 8888.9595,
+   "new_battery_npv_at_assumed_cost": -3111.0405
+  },
+  "pv6kw|cheap_nights_illustrative": {
+   "existing_owner_incremental_usd_per_year": 4.5872,
+   "existing_owner_net_npv": -85.9486,
+   "existing_owner_payback_years": null,
+   "new_battery_value_usd_per_year": 363.3299,
+   "new_battery_break_even_capex": 2922.4202,
+   "new_battery_npv_at_assumed_cost": -9077.5798
+  },
+  "pv6kw|flat_illustrative": {
+   "existing_owner_incremental_usd_per_year": 208.5959,
+   "existing_owner_net_npv": 1366.5592,
+   "existing_owner_payback_years": 0.3929,
+   "new_battery_value_usd_per_year": 0.0,
+   "new_battery_break_even_capex": 0.0,
+   "new_battery_npv_at_assumed_cost": -12000.0
+  }
+ },
+ "mv_demo_pv0_cheap_nights_seed0": {
+  "meter_data_consistent": true,
+  "max_balance_residual_kwh": 0.0,
+  "actual_bill": 783.2343,
+  "actual_bill_plus_degradation": 901.9805,
+  "counterfactual_no_battery_bill": 1168.4579,
+  "counterfactual_self_consumption_total": 1168.4579,
+  "savings_vs_no_battery_net_of_degradation": 266.4774,
+  "savings_vs_default_mode_net_of_degradation": 266.4774,
+  "recommendation": "KEEP: optimizer beats factory default net of degradation and fees"
+ },
+ "analytic_thresholds": {
+  "CA_summer_offpeak_0.38_min_peak_for_grid_arbitrage": 0.4526,
+  "cheap_nights_0.08_min_later_price": 0.1202,
+  "solar_export_0.05_min_later_price": 0.087,
+  "daily_upper_bound_cheap_nights_0.08_to_0.24": 1.2289
+ },
+ "runtime_seconds": 180.1554
+}

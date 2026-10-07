@@ -261,17 +261,29 @@ class FeeSummary:
 
     @property
     def annualized(self):
-        return self.total * 365.25 / max(self.span_days, 30)
+        # With < 90 days of history, do not extrapolate: one trip's FX fees are not a yearly habit.
+        if self.span_days < 90:
+            return self.total
+        return self.total * 365.25 / self.span_days
 
 
 def detect_fees(transactions):
-    span = (data_end(transactions) - min(t.date for t in transactions)).days + 1
+    """Fees grouped by type. The annualisation window is the history of the accounts the fees were charged on."""
+    acct_span = {}
+    for t in transactions:
+        lo, hi = acct_span.get(t.account, (t.date, t.date))
+        acct_span[t.account] = (min(lo, t.date), max(hi, t.date))
     groups = defaultdict(list)
     for t in transactions:
         k = fee_type(t.description, t.amount)
         if k:
             groups[k].append(t)
-    return sorted((FeeSummary(k, v, span) for k, v in groups.items()), key=lambda f: -f.annualized)
+    out = []
+    for k, v in groups.items():
+        accts = {t.account for t in v}
+        span = max((acct_span[a][1] - acct_span[a][0]).days + 1 for a in accts)
+        out.append(FeeSummary(k, v, span))
+    return sorted(out, key=lambda f: -f.annualized)
 
 
 # ---------------------------------------------------------------- overlap / unused

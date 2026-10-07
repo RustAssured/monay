@@ -144,7 +144,10 @@ def run_audit(transactions, usage=None, checking_accounts=None, balances=None, t
         actions.append(Action("subscription", "Review/cancel: " + ", ".join(s.merchant for s in r.series[:1]) +
                               ("" if len(r.series) == 1 else " (overlap)"), r.reason, r.potential_annual, 0.0,
                               r.confidence, 10, [t.txid for s in r.series for t in s.transactions[-3:]]))
+    under_review = {id(s) for r in reviews for s in r.series if r.confidence >= 0.7}
     for p in creep:
+        if id(p.series) in under_review:
+            continue  # already suggested cancelling it; counting the increase too would double-count
         actions.append(Action("price_creep", f"Price increase: {p.series.merchant} "
                               f"${p.old_amount:.2f} -> ${p.new_amount:.2f} ({p.pct:+.0%}) since {p.changed_on}",
                               "Ask for the old rate / a retention offer, downgrade the plan, or cancel.",
@@ -158,7 +161,7 @@ def run_audit(transactions, usage=None, checking_accounts=None, balances=None, t
     for f in fees:
         title, detail, conf, effort = FEE_ADVICE[f.kind]
         actions.append(Action("fee", f"{title}: ${f.total:.2f} paid over {f.span_days} days "
-                              f"({len(f.transactions)} charges)", detail, f.annualized, 0.0, conf, effort,
+                              f"({len(f.transactions)} charge{'s' if len(f.transactions) != 1 else ''})", detail, f.annualized, 0.0, conf, effort,
                               [t.txid for t in f.transactions]))
     for ic in idle:
         actions.append(Action("idle_cash", f"Idle cash in {ic.account}: ~${ic.excess:,.0f} above a "
