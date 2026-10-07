@@ -1,0 +1,157 @@
+{
+  "base_params": {
+    "new_free_orgs_per_month": 25,
+    "free_to_paid": 0.02,
+    "monthly_churn": 0.05,
+    "business_mix": 0.15,
+    "overage_per_paid": 2.0,
+    "hosting_fixed": 40,
+    "hosting_per_paid": 0.3,
+    "operator_hours": 8,
+    "hourly_rate": 50
+  },
+  "arpa": 41.5,
+  "net_per_customer": 39.2,
+  "breakeven_customers_incl_time": 11.2,
+  "breakeven_customers_cash_only": 1.0,
+  "required_new_free_orgs_per_month_incl_time": 28.1,
+  "required_new_free_orgs_per_month_cash_only": 2.6,
+  "steady_state_paid_base": 10.0,
+  "mc_with_kill_rule_incl_time": {
+    "n": 5000,
+    "kill_rule": true,
+    "include_operator_time": true,
+    "p_cum_profit_positive_36m": 0.3764,
+    "cum_net_36m_after_tax": {
+      "p10": -12150.459549015493,
+      "p50": -4292.403062064756,
+      "p90": 13357.742269768793,
+      "mean": -1230.4210112299063,
+      "min": -32017.685886324747
+    },
+    "p_monthly_breakeven_by_36m": 0.6208,
+    "median_breakeven_month_if_reached": 11.0,
+    "paid_orgs_month36": {
+      "p10": 0.0,
+      "p50": 17.0,
+      "p90": 41.0
+    }
+  },
+  "mc_no_kill_rule_incl_time": {
+    "n": 5000,
+    "kill_rule": false,
+    "include_operator_time": true,
+    "p_cum_profit_positive_36m": 0.3962,
+    "cum_net_36m_after_tax": {
+      "p10": -18178.740024862807,
+      "p50": -4127.710366000554,
+      "p90": 13285.7668565316,
+      "mean": -3104.620300073909,
+      "min": -37377.12909122647
+    },
+    "p_monthly_breakeven_by_36m": 0.6908,
+    "median_breakeven_month_if_reached": 12.0,
+    "paid_orgs_month36": {
+      "p10": 6.0,
+      "p50": 18.0,
+      "p90": 40.0
+    }
+  },
+  "mc_with_kill_rule_cash_only": {
+    "n": 5000,
+    "kill_rule": true,
+    "include_operator_time": false,
+    "p_cum_profit_positive_36m": 0.8986,
+    "cum_net_36m_after_tax": {
+      "p10": -2.6653747076154426,
+      "p50": 11018.397025407696,
+      "p90": 27130.500497437184,
+      "mean": 12436.040648109529,
+      "min": -664.1131817005005
+    },
+    "p_monthly_breakeven_by_36m": 0.9626,
+    "median_breakeven_month_if_reached": 2.0,
+    "paid_orgs_month36": {
+      "p10": 0.0,
+      "p50": 17.0,
+      "p90": 41.0
+    }
+  },
+  "tornado_incl_time": [
+    {
+      "base_total": -10001
+    },
+    {
+      "param": "new_free_orgs_per_month",
+      "low": 5,
+      "high": 120,
+      "total_at_low": -16272,
+      "total_at_high": 19786,
+      "swing": 36059
+    },
+    {
+      "param": "operator_hours",
+      "low": 4,
+      "high": 16,
+      "total_at_low": -2801,
+      "total_at_high": -24401,
+      "swing": 21600
+    },
+    {
+      "param": "free_to_paid",
+      "low": 0.005,
+      "high": 0.05,
+      "total_at_low": -15880,
+      "total_at_high": 1757,
+      "swing": 17637
+    },
+    {
+      "param": "hourly_rate",
+      "low": 30,
+      "high": 80,
+      "total_at_low": -3441,
+      "total_at_high": -19841,
+      "swing": 16400
+    },
+    {
+      "param": "monthly_churn",
+      "low": 0.025,
+      "high": 0.08,
+      "total_at_low": -7903,
+      "total_at_high": -11698,
+      "swing": 3795
+    },
+    {
+      "param": "business_mix",
+      "low": 0.05,
+      "high": 0.25,
+      "total_at_low": -11344,
+      "total_at_high": -8659,
+      "swing": 2685
+    },
+    {
+      "param": "hosting_fixed",
+      "low": 25,
+      "high": 80,
+      "total_at_low": -9461,
+      "total_at_high": -11441,
+      "swing": 1980
+    },
+    {
+      "param": "overage_per_paid",
+      "low": 0.0,
+      "high": 6.0,
+      "total_at_low": -10385,
+      "total_at_high": -9234,
+      "swing": 1151
+    },
+    {
+      "param": "hosting_per_paid",
+      "low": 0.1,
+      "high": 1.0,
+      "total_at_low": -9961,
+      "total_at_high": -10141,
+      "swing": 180
+    }
+  ]
+}

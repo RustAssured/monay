@@ -1,0 +1,13 @@
+[project]
+name = "flakehunter"
+version = "0.1.0"
+description = "Find flaky tests from JUnit XML history (open-core)"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+sim = ["numpy"]
+
+[project.scripts]
+flakehunter = "flakehunter.cli:main"
