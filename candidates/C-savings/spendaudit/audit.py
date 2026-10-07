@@ -76,6 +76,25 @@ def monthly_history(transactions):
     return [(f"{y}-{m:02d}", inc, out, inc - out) for (y, m), (inc, out) in sorted(rows.items())]
 
 
+MONTH_STEP = {"monthly": 1, "quarterly": 3, "semiannual": 6, "annual": 12}
+
+
+def _occurrences_in_month(s, y, mo):
+    """How many times a recurring series is expected to post in calendar month (y, mo)."""
+    last = s.transactions[-1].date
+    if s.cadence == "semimonthly":
+        return 2
+    if s.cadence in MONTH_STEP:
+        months_ahead = (y - last.year) * 12 + (mo - last.month)
+        return 1 if months_ahead > 0 and months_ahead % MONTH_STEP[s.cadence] == 0 else 0
+    step = timedelta(days=D.CADENCES[s.cadence][0])
+    d, n = last + step, 0
+    while (d.year, d.month) <= (y, mo):
+        n += (d.year, d.month) == (y, mo)
+        d += step
+    return n
+
+
 def forecast(transactions, recurring, actions, months=6):
     end = D.data_end(transactions)
     start = min(t.date for t in transactions)
@@ -105,15 +124,11 @@ def forecast(transactions, recurring, actions, months=6):
         for s in recurring:
             if not s.active:
                 continue
-            step = timedelta(days=D.CADENCES[s.cadence][0])
-            d = s.transactions[-1].date + step
-            while (d.year, d.month) <= (y, mo):
-                if (d.year, d.month) == (y, mo):
-                    if s.direction == "in":
-                        committed_in += s.typical_amount
-                    else:
-                        committed_out += s.typical_amount
-                d += step
+            n = _occurrences_in_month(s, y, mo)
+            if s.direction == "in":
+                committed_in += n * s.typical_amount
+            else:
+                committed_out += n * s.typical_amount
         net = committed_in + base_in - committed_out - base_out
         out.append({"month": f"{y}-{mo:02d}", "recurring_income": committed_in, "other_income": base_in,
                     "committed_out": committed_out, "variable_out": base_out, "net": net,

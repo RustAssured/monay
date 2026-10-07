@@ -62,8 +62,13 @@ def cmd_demo(args):
 
 def cmd_evaluate(args):
     from .evaluate import evaluate, format_table
+    from .evaluate import forecast_backtest
     m, t = evaluate(args.n, args.seed)
     print(format_table(m, t))
+    bt = forecast_backtest(min(args.n, 100), args.seed)
+    print(f"\nForecast backtest (fit < 2026-01, predict Jan-Jun 2026, {bt['months_compared']} household-months): "
+          f"outflow WAPE {bt['outflow_wape']:.1%}, mean |net error| ${bt['mean_abs_net_error']:,.0f} "
+          f"vs mean monthly outflow ${bt['mean_monthly_outflow']:,.0f}.")
     return 0
 
 

@@ -156,3 +156,19 @@ class TestOverlapIdle(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestForecast(unittest.TestCase):
+    def test_monthly_items_once_per_calendar_month(self):
+        from spendaudit.audit import run_audit
+        txs = [T(date(2025, m, 1), -2000.0, "BRIDGEWATER PROPERTY MGMT RENT", "checking") for m in range(1, 13)]
+        txs += [T(date(2025, m, 15), 5000.0, "ACME CORP PAYROLL", "checking") for m in range(1, 13)]
+        res = run_audit(txs, checking_accounts=[])
+        for f in res.forecast:
+            self.assertAlmostEqual(f["committed_out"], 2000.0)
+            self.assertAlmostEqual(f["recurring_income"], 5000.0)
+
+    def test_backtest_accuracy(self):
+        from spendaudit.evaluate import forecast_backtest
+        bt = forecast_backtest(15)
+        self.assertLess(bt["outflow_wape"], 0.15)

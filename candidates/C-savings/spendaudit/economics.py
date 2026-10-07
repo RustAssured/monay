@@ -12,7 +12,7 @@ from dataclasses import dataclass, fields, replace
 # ---------------------------------------------------------------- (a) household use
 @dataclass
 class HouseholdAssumptions:
-    expected_savings_per_year: float = 207.0   # MEDIAN confidence-weighted value on the synthetic benchmark (NOT real data)
+    expected_savings_per_year: float = 185.0   # MEDIAN confidence-weighted value on the synthetic benchmark (NOT real data)
     realisation_rate: float = 0.5               # extra haircut: fraction of "expected" a real user actually captures
     setup_hours: float = 1.5                    # export CSV/OFX from banks, run, read report, make calls
     rerun_hours_per_year: float = 1.0           # quarterly re-run, ~15 min each
@@ -21,7 +21,7 @@ class HouseholdAssumptions:
 
 
 HOUSEHOLD_RANGES = {
-    "expected_savings_per_year": (54.0, 207.0, 1493.0),   # synthetic p10 / median / p90
+    "expected_savings_per_year": (51.0, 185.0, 1493.0),   # synthetic p10 / median / p90
     "realisation_rate": (0.25, 0.5, 0.8),
     "setup_hours": (0.75, 1.5, 4.0),
     "rerun_hours_per_year": (0.5, 1.0, 3.0),

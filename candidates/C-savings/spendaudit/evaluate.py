@@ -90,6 +90,30 @@ def evaluate(n_households=200, seed0=1000):
     return out, totals
 
 
+def forecast_backtest(n_households=100, seed0=1000, cutoff=None, months=6):
+    """Fit on history up to `cutoff`, forecast the next `months`, compare with what actually happened."""
+    from datetime import date
+    from .audit import monthly_history
+    cutoff = cutoff or date(2026, 1, 1)
+    out_err, net_err, out_tot = [], [], []
+    for h in range(n_households):
+        hh = generate_household(seed0 + h)
+        train = [t for t in hh.transactions if t.date < cutoff]
+        test = [t for t in hh.transactions if t.date >= cutoff]
+        res = run_audit(train, checking_accounts=["checking"], forecast_months=months)
+        actual = {m: (i, o, n) for m, i, o, n in monthly_history(test)}
+        for f in res.forecast:
+            if f["month"] in actual:
+                pred_out = f["committed_out"] + f["variable_out"]
+                out_err.append(abs(pred_out - actual[f["month"]][1]))
+                out_tot.append(actual[f["month"]][1])
+                net_err.append(abs(f["net"] - actual[f["month"]][2]))
+    return {"months_compared": len(out_err),
+            "outflow_wape": round(sum(out_err) / sum(out_tot), 4),
+            "mean_abs_net_error": round(sum(net_err) / len(net_err), 2),
+            "mean_monthly_outflow": round(sum(out_tot) / len(out_tot), 2)}
+
+
 def format_table(metrics, totals):
     lines = ["| detector | TP | FP | FN | precision | recall | F1 |", "|---|---|---|---|---|---|---|"]
     for k, v in metrics.items():

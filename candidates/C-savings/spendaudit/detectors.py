@@ -10,7 +10,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 
-from .normalize import CLOUD_STORAGE, MUSIC, STREAMING, fee_type, is_transfer, merchant_family, merchant_key
+from .normalize import AMBIGUOUS_BILLERS, CLOUD_STORAGE, MUSIC, STREAMING, fee_type, is_transfer, merchant_family, merchant_key
 
 # cadence name -> (nominal days, per-interval tolerance in days, periods per year)
 CADENCES = {
@@ -127,7 +127,9 @@ def _series_from(txs, merchant, direction, end, split=False, others=0):
         kind = "income"
     nominal = CADENCES[cad][0]
     active = (end - dates[-1]).days <= nominal * 1.5 + 5
-    return RecurringSeries(merchant, cad, txs, direction, cv, active, kind)
+    keys = [merchant_key(t.description) for t in txs]
+    display = max(set(keys), key=lambda k: (keys.count(k), -len(k)))  # most common descriptor form
+    return RecurringSeries(display, cad, txs, direction, cv, active, kind)
 
 
 def data_end(transactions):
@@ -303,14 +305,18 @@ def detect_overlap_and_unused(series_list, usage=None, as_of=None, stale_days=60
     Bank data alone cannot prove a service is unused, so this never claims that without a usage log."""
     out = []
     active = [s for s in series_list if s.active and s.direction == "out"]
+    used = set()
     for cat_name, cat in (("video streaming", STREAMING), ("music", MUSIC), ("cloud storage", CLOUD_STORAGE)):
-        members = [s for s in active if s.merchant in cat]
-        if cat_name != "video streaming":
-            # APPLE.COM/BILL etc. are ambiguous: only count fixed-price small subs
-            members = [s for s in members if s.kind == "fixed" and s.typical_amount < 25]
+        # one series per merchant, each series in at most one category, ambiguous billers excluded
+        members, seen = [], set()
+        for s in sorted(active, key=lambda s: s.annual_cost):
+            if s.merchant in cat and s.merchant not in AMBIGUOUS_BILLERS and s.merchant not in seen \
+                    and id(s) not in used and s.kind == "fixed" and s.typical_amount < 40:
+                members.append(s)
+                seen.add(s.merchant)
         if len(members) >= (3 if cat_name == "video streaming" else 2):
-            members.sort(key=lambda s: s.annual_cost)
-            drop = members[0] if cat_name != "video streaming" else members[0]
+            used |= {id(s) for s in members}
+            drop = members[0]
             out.append(ServiceReview(
                 f"{len(members)} overlapping {cat_name} services ({', '.join(s.merchant for s in members)}); "
                 f"dropping one (e.g. {drop.merchant}) or rotating month-to-month",
