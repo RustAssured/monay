@@ -1,0 +1,1182 @@
+{
+  "period": "1926-07..2021-06",
+  "years": 94.91666666666667,
+  "assets": {
+    "stock_tr": {
+      "cagr": 0.10261729229684313,
+      "vol": 0.18467118202058086
+    },
+    "bond_tr": {
+      "cagr": 0.05080096945491697,
+      "vol": 0.054436968391200685
+    },
+    "bill_tr": {
+      "cagr": 0.03274559598658944,
+      "vol": 0.008732992229120455
+    },
+    "infl": {
+      "cagr": 0.0291660124926163,
+      "vol": 0.018281448934018018
+    }
+  },
+  "backtests": {
+    "bills|IRA": {
+      "cagr": 0.031819312501860875,
+      "real_cagr": 0.0024327798128560563,
+      "vol": 0.008735374219952838,
+      "sharpe": -691.407297738589,
+      "max_drawdown": -0.003917673267756383,
+      "longest_underwater_months": 74,
+      "real_max_drawdown": -0.49510691097638215,
+      "real_longest_underwater_months": 1057,
+      "worst_12m": -0.0013994533247051466,
+      "excess_cagr_vs_bills": -0.000931587658339339,
+      "liq_cagr": 0.03181605126947917,
+      "drag": 0.0009348488907210406,
+      "taxes_paid": 0.0,
+      "trading_costs": 302.0471763450671,
+      "expense_drag": 58368.82076432724,
+      "turnover": 0.03097561213189046,
+      "harvested_losses": 0.0,
+      "final_value": 1955006.4268153445,
+      "liquidation_value": 1954713.1758513222
+    },
+    "bills|taxable": {
+      "cagr": 0.024039179521090803,
+      "real_cagr": -0.005125772577791343,
+      "vol": 0.011856733770324469,
+      "sharpe": -0.8530315638584567,
+      "max_drawdown": -0.022449285369971372,
+      "longest_underwater_months": 111,
+      "real_max_drawdown": -0.6122269357919248,
+      "real_longest_underwater_months": 1057,
+      "worst_12m": -0.0038617412702679488,
+      "excess_cagr_vs_bills": -0.00871172063910941,
+      "liq_cagr": 0.024035942883711803,
+      "drag": 0.008714957276488411,
+      "taxes_paid": 280077.46775723534,
+      "trading_costs": 202.2886466814186,
+      "expense_drag": 33517.81421718388,
+      "turnover": 0.03613831299015469,
+      "harvested_losses": 0.0,
+      "final_value": 953124.3802860647,
+      "liquidation_value": 952981.4120379775
+    },
+    "stocks100|IRA": {
+      "cagr": 0.1020116073948476,
+      "real_cagr": 0.0706259764689745,
+      "vol": 0.184738236222405,
+      "sharpe": 0.44425034485772025,
+      "max_drawdown": -0.8372195151628172,
+      "longest_underwater_months": 184,
+      "real_max_drawdown": -0.7930320477275954,
+      "real_longest_underwater_months": 185,
+      "worst_12m": -0.658477306478553,
+      "excess_cagr_vs_bills": 0.06926070723464739,
+      "liq_cagr": 0.10200696328190628,
+      "drag": 0.0003412695135001087,
+      "taxes_paid": 0.0,
+      "trading_costs": 32354.136550110532,
+      "expense_drag": 2463100.693436011,
+      "turnover": 0.019507371167524067,
+      "harvested_losses": 0.0,
+      "final_value": 1009447376.7197345,
+      "liquidation_value": 1009245487.2443906
+    },
+    "stocks100|taxable": {
+      "cagr": 0.09576229855098362,
+      "real_cagr": 0.06455464987103166,
+      "vol": 0.18471070659085784,
+      "sharpe": 0.4133459104194245,
+      "max_drawdown": -0.8427826769850163,
+      "longest_underwater_months": 191,
+      "real_max_drawdown": -0.8001053539144657,
+      "real_longest_underwater_months": 193,
+      "worst_12m": -0.6643565584383504,
+      "excess_cagr_vs_bills": 0.0630113983907834,
+      "liq_cagr": 0.09414840820953985,
+      "drag": 0.008199824585866544,
+      "taxes_paid": 14962086.909764167,
+      "trading_costs": 19342.63858256245,
+      "expense_drag": 1484171.398232786,
+      "turnover": 0.019360403265674436,
+      "harvested_losses": 0.0,
+      "final_value": 588378860.7154609,
+      "liquidation_value": 511665070.1067641
+    },
+    "s80_b20|IRA": {
+      "cagr": 0.0954076652552387,
+      "real_cagr": 0.06421011664107534,
+      "vol": 0.14914429891445252,
+      "sharpe": 0.4695817290100494,
+      "max_drawdown": -0.74997157534111,
+      "longest_underwater_months": 89,
+      "real_max_drawdown": -0.6828781167964508,
+      "real_longest_underwater_months": 172,
+      "worst_12m": -0.5600422878476341,
+      "excess_cagr_vs_bills": 0.06265676509503848,
+      "liq_cagr": 0.095403048972724,
+      "drag": -0.000424380630581922,
+      "taxes_paid": 0.0,
+      "trading_costs": 39283.68419643844,
+      "expense_drag": 2728893.2589530055,
+      "turnover": 0.03736842696374143,
+      "harvested_losses": 0.0,
+      "final_value": 570576464.6768233,
+      "liquidation_value": 570462349.3838878
+    },
+    "s80_b20|taxable": {
+      "cagr": 0.08844409019515176,
+      "real_cagr": 0.05744486634934276,
+      "vol": 0.14933694642251547,
+      "sharpe": 0.4262199031097355,
+      "max_drawdown": -0.758259598150623,
+      "longest_underwater_months": 165,
+      "real_max_drawdown": -0.6933901679374098,
+      "real_longest_underwater_months": 197,
+      "worst_12m": -0.5663106797420527,
+      "excess_cagr_vs_bills": 0.055693190034951545,
+      "liq_cagr": 0.08694824605211648,
+      "drag": 0.008030422290025596,
+      "taxes_paid": 12101350.536688836,
+      "trading_costs": 28925.91365321067,
+      "expense_drag": 1547725.311088734,
+      "turnover": 0.048281362582518215,
+      "harvested_losses": 0.0,
+      "final_value": 311478382.6350303,
+      "liquidation_value": 273416596.2083984
+    },
+    "s60_b40|IRA": {
+      "cagr": 0.08665851265497837,
+      "real_cagr": 0.055710142608974556,
+      "vol": 0.11474649349803677,
+      "sharpe": 0.5008015352459113,
+      "max_drawdown": -0.6305747553093066,
+      "longest_underwater_months": 83,
+      "real_max_drawdown": -0.532585075265451,
+      "real_longest_underwater_months": 123,
+      "worst_12m": -0.45223103995898684,
+      "excess_cagr_vs_bills": 0.05390761249477816,
+      "liq_cagr": 0.08665393324326653,
+      "drag": -0.0005736886038241185,
+      "taxes_paid": 0.0,
+      "trading_costs": 59419.15913019839,
+      "expense_drag": 2135753.537945922,
+      "turnover": 0.10549290906115741,
+      "harvested_losses": 0.0,
+      "final_value": 266531542.29873127,
+      "liquidation_value": 266478235.99027154
+    },
+    "s60_b40|taxable": {
+      "cagr": 0.07827020273408625,
+      "real_cagr": 0.04756073434529018,
+      "vol": 0.11473623408038389,
+      "sharpe": 0.4328199166620147,
+      "max_drawdown": -0.6427902188173289,
+      "longest_underwater_months": 85,
+      "real_max_drawdown": -0.5480406822159052,
+      "real_longest_underwater_months": 203,
+      "worst_12m": -0.45907780875164994,
+      "excess_cagr_vs_bills": 0.045519302573886034,
+      "liq_cagr": 0.07702592775842243,
+      "drag": 0.009054316881019986,
+      "taxes_paid": 9061938.579617994,
+      "trading_costs": 30897.564773901555,
+      "expense_drag": 1101823.2027924266,
+      "turnover": 0.10645459193613198,
+      "harvested_losses": 0.0,
+      "final_value": 127734503.4070677,
+      "liquidation_value": 114498430.86896366
+    },
+    "s40_b60|IRA": {
+      "cagr": 0.07570002474261717,
+      "real_cagr": 0.04506375581679678,
+      "vol": 0.08309999643604678,
+      "sharpe": 0.5318145231123784,
+      "max_drawdown": -0.46557398352607426,
+      "longest_underwater_months": 73,
+      "real_max_drawdown": -0.3647639489460879,
+      "real_longest_underwater_months": 144,
+      "worst_12m": -0.31888732411102017,
+      "excess_cagr_vs_bills": 0.04294912458241695,
+      "liq_cagr": 0.07569549151232069,
+      "drag": 1.716761525960564e-05,
+      "taxes_paid": 0.0,
+      "trading_costs": 26522.652176360014,
+      "expense_drag": 1281894.7456123962,
+      "turnover": 0.10322433611679532,
+      "harvested_losses": 0.0,
+      "final_value": 101843704.14803365,
+      "liquidation_value": 101823335.40720403
+    },
+    "s40_b60|taxable": {
+      "cagr": 0.06592855340208414,
+      "real_cagr": 0.035570578997881075,
+      "vol": 0.08324892229522945,
+      "sharpe": 0.4205010135134312,
+      "max_drawdown": -0.4798857677952153,
+      "longest_underwater_months": 75,
+      "real_max_drawdown": -0.45447410618614614,
+      "real_longest_underwater_months": 206,
+      "worst_12m": -0.32616101084355076,
+      "excess_cagr_vs_bills": 0.03317765324188393,
+      "liq_cagr": 0.06494156149218511,
+      "drag": 0.010771097635395188,
+      "taxes_paid": 4470077.116237322,
+      "trading_costs": 12517.345905734206,
+      "expense_drag": 593277.418122103,
+      "turnover": 0.10542871903654985,
+      "harvested_losses": 0.0,
+      "final_value": 42832319.32793675,
+      "liquidation_value": 39234816.65301047
+    },
+    "s60_b40_tlh|taxable": {
+      "cagr": 0.07906003944637163,
+      "real_cagr": 0.048328076264075204,
+      "vol": 0.11458069859578776,
+      "sharpe": 0.4396460836346357,
+      "max_drawdown": -0.6370908724453771,
+      "longest_underwater_months": 85,
+      "real_max_drawdown": -0.540829913556138,
+      "real_longest_underwater_months": 203,
+      "worst_12m": -0.45401276949514957,
+      "excess_cagr_vs_bills": 0.04630913928617142,
+      "liq_cagr": 0.07779615568817966,
+      "drag": 0.008284088951262758,
+      "taxes_paid": 9313689.42128638,
+      "trading_costs": 66861.2552069756,
+      "expense_drag": 770547.155655229,
+      "turnover": 0.2032290792967622,
+      "harvested_losses": 6052325.913138247,
+      "final_value": 136928002.38303608,
+      "liquidation_value": 122537350.01532297
+    },
+    "stocks100_tlh|taxable": {
+      "cagr": 0.0970637631930098,
+      "real_cagr": 0.06581904839810626,
+      "vol": 0.1846618480931359,
+      "sharpe": 0.4198288273599593,
+      "max_drawdown": -0.8403422757154202,
+      "longest_underwater_months": 185,
+      "real_max_drawdown": -0.7970024951534997,
+      "real_longest_underwater_months": 193,
+      "worst_12m": -0.6610027066757942,
+      "excess_cagr_vs_bills": 0.06431286303280959,
+      "liq_cagr": 0.09545219220270029,
+      "drag": 0.006896040592706099,
+      "taxes_paid": 16678404.20926851,
+      "trading_costs": 51090.67562459261,
+      "expense_drag": 1661090.4811191824,
+      "turnover": 0.045686499362211565,
+      "harvested_losses": 8546655.948608419,
+      "final_value": 658549108.606608,
+      "liquidation_value": 572896651.3585881
+    },
+    "s60_b40_trend10|IRA": {
+      "cagr": 0.08199226850115071,
+      "real_cagr": 0.05117679452977919,
+      "vol": 0.08098135222336618,
+      "sharpe": 0.6164101507739445,
+      "max_drawdown": -0.2505520188742798,
+      "longest_underwater_months": 73,
+      "real_max_drawdown": -0.3571530307167903,
+      "real_longest_underwater_months": 82,
+      "worst_12m": -0.15599474829354587,
+      "excess_cagr_vs_bills": 0.0492413683409505,
+      "liq_cagr": 0.08198770747361572,
+      "drag": 0.004092537165826693,
+      "taxes_paid": 0.0,
+      "trading_costs": 642083.1912228109,
+      "expense_drag": 1773544.8461165875,
+      "turnover": 1.7062341838076485,
+      "harvested_losses": 0.0,
+      "final_value": 177156094.45701143,
+      "liquidation_value": 177120643.34390593
+    },
+    "s60_b40_trend10|taxable": {
+      "cagr": 0.06892585372735116,
+      "real_cagr": 0.038482515284192775,
+      "vol": 0.08212238415055954,
+      "sharpe": 0.4598750589167716,
+      "max_drawdown": -0.2880617790970068,
+      "longest_underwater_months": 75,
+      "real_max_drawdown": -0.3592585762056224,
+      "real_longest_underwater_months": 168,
+      "worst_12m": -0.1621087930325561,
+      "excess_cagr_vs_bills": 0.03617495356715095,
+      "liq_cagr": 0.06845952831482371,
+      "drag": 0.0176207163246187,
+      "taxes_paid": 8728777.639831172,
+      "trading_costs": 232685.9482760947,
+      "expense_drag": 646791.9038838,
+      "turnover": 1.7032872025468233,
+      "harvested_losses": 0.0,
+      "final_value": 55914066.29372233,
+      "liquidation_value": 53656303.38320664
+    }
+  },
+  "rolling": {
+    "bills|IRA": {
+      "1y": {
+        "p_nominal_loss": 0.10726950354609929,
+        "p_real_loss": 0.42819148936170215,
+        "p_below_bills": 1.0,
+        "worst_annualized": -0.0013994533247051152,
+        "median_annualized": 0.026973310529956097,
+        "n_windows": 1128,
+        "n_independent": 94
+      },
+      "5y": {
+        "p_nominal_loss": 0.0712962962962963,
+        "p_real_loss": 0.45740740740740743,
+        "p_below_bills": 1.0,
+        "worst_annualized": -0.0006798300724018323,
+        "median_annualized": 0.02605954063193258,
+        "n_windows": 1080,
+        "n_independent": 18
+      },
+      "10y": {
+        "p_nominal_loss": 0.0,
+        "p_real_loss": 0.45,
+        "p_below_bills": 1.0,
+        "worst_annualized": 0.00041966417417714394,
+        "median_annualized": 0.02936467778252609,
+        "n_windows": 1020,
+        "n_independent": 9
+      }
+    },
+    "stocks100|IRA": {
+      "1y": {
+        "p_nominal_loss": 0.24822695035460993,
+        "p_real_loss": 0.2987588652482269,
+        "p_below_bills": 0.2969858156028369,
+        "worst_annualized": -0.658477306478553,
+        "median_annualized": 0.13562587879254925,
+        "n_windows": 1128,
+        "n_independent": 94
+      },
+      "5y": {
+        "p_nominal_loss": 0.12129629629629629,
+        "p_real_loss": 0.21481481481481482,
+        "p_below_bills": 0.21574074074074073,
+        "worst_annualized": -0.19497337131383408,
+        "median_annualized": 0.11317400095080307,
+        "n_windows": 1080,
+        "n_independent": 18
+      },
+      "10y": {
+        "p_nominal_loss": 0.05,
+        "p_real_loss": 0.1323529411764706,
+        "p_below_bills": 0.14313725490196078,
+        "worst_annualized": -0.05386380386507185,
+        "median_annualized": 0.10556607779643673,
+        "n_windows": 1020,
+        "n_independent": 9
+      }
+    },
+    "s80_b20|IRA": {
+      "1y": {
+        "p_nominal_loss": 0.23581560283687944,
+        "p_real_loss": 0.29521276595744683,
+        "p_below_bills": 0.28900709219858156,
+        "worst_annualized": -0.5600422878476342,
+        "median_annualized": 0.12124596506954392,
+        "n_windows": 1128,
+        "n_independent": 94
+      },
+      "5y": {
+        "p_nominal_loss": 0.075,
+        "p_real_loss": 0.18796296296296297,
+        "p_below_bills": 0.2,
+        "worst_annualized": -0.14415633949754394,
+        "median_annualized": 0.10037000519653784,
+        "n_windows": 1080,
+        "n_independent": 18
+      },
+      "10y": {
+        "p_nominal_loss": 0.013725490196078431,
+        "p_real_loss": 0.11666666666666667,
+        "p_below_bills": 0.1264705882352941,
+        "worst_annualized": -0.022599946083067018,
+        "median_annualized": 0.09669128513382973,
+        "n_windows": 1020,
+        "n_independent": 9
+      }
+    },
+    "s60_b40|IRA": {
+      "1y": {
+        "p_nominal_loss": 0.21365248226950354,
+        "p_real_loss": 0.29432624113475175,
+        "p_below_bills": 0.2801418439716312,
+        "worst_annualized": -0.45223103995898684,
+        "median_annualized": 0.10152700937857591,
+        "n_windows": 1128,
+        "n_independent": 94
+      },
+      "5y": {
+        "p_nominal_loss": 0.05740740740740741,
+        "p_real_loss": 0.1537037037037037,
+        "p_below_bills": 0.17314814814814813,
+        "worst_annualized": -0.09800621441201021,
+        "median_annualized": 0.08633058218784759,
+        "n_windows": 1080,
+        "n_independent": 18
+      },
+      "10y": {
+        "p_nominal_loss": 0.000980392156862745,
+        "p_real_loss": 0.10098039215686275,
+        "p_below_bills": 0.10686274509803921,
+        "worst_annualized": -0.0025470711577836817,
+        "median_annualized": 0.08452466170494728,
+        "n_windows": 1020,
+        "n_independent": 9
+      }
+    },
+    "s40_b60|IRA": {
+      "1y": {
+        "p_nominal_loss": 0.18262411347517732,
+        "p_real_loss": 0.2925531914893617,
+        "p_below_bills": 0.28900709219858156,
+        "worst_annualized": -0.31888732411102017,
+        "median_annualized": 0.08079368034942289,
+        "n_windows": 1128,
+        "n_independent": 94
+      },
+      "5y": {
+        "p_nominal_loss": 0.040740740740740744,
+        "p_real_loss": 0.16944444444444445,
+        "p_below_bills": 0.1648148148148148,
+        "worst_annualized": -0.054258530547711945,
+        "median_annualized": 0.0687443638115124,
+        "n_windows": 1080,
+        "n_independent": 18
+      },
+      "10y": {
+        "p_nominal_loss": 0.0,
+        "p_real_loss": 0.12941176470588237,
+        "p_below_bills": 0.10294117647058823,
+        "worst_annualized": 0.01584570217160776,
+        "median_annualized": 0.06991882103700034,
+        "n_windows": 1020,
+        "n_independent": 9
+      }
+    },
+    "s60_b40|taxable": {
+      "1y": {
+        "p_nominal_loss": 0.22872340425531915,
+        "p_real_loss": 0.31117021276595747,
+        "p_below_bills": 0.30407801418439717,
+        "worst_annualized": -0.4590778087516499,
+        "median_annualized": 0.09400250427844581,
+        "n_windows": 1128,
+        "n_independent": 94
+      },
+      "5y": {
+        "p_nominal_loss": 0.06388888888888888,
+        "p_real_loss": 0.2037037037037037,
+        "p_below_bills": 0.22037037037037038,
+        "worst_annualized": -0.10671455172364615,
+        "median_annualized": 0.07903475507509808,
+        "n_windows": 1080,
+        "n_independent": 18
+      },
+      "10y": {
+        "p_nominal_loss": 0.00196078431372549,
+        "p_real_loss": 0.13333333333333333,
+        "p_below_bills": 0.1411764705882353,
+        "worst_annualized": -0.007104140267070332,
+        "median_annualized": 0.0773685072398846,
+        "n_windows": 1020,
+        "n_independent": 9
+      }
+    },
+    "s60_b40_trend10|IRA": {
+      "1y": {
+        "p_nominal_loss": 0.1879432624113475,
+        "p_real_loss": 0.3147163120567376,
+        "p_below_bills": 0.3324468085106383,
+        "worst_annualized": -0.15599474829354576,
+        "median_annualized": 0.0779129480922435,
+        "n_windows": 1128,
+        "n_independent": 94
+      },
+      "5y": {
+        "p_nominal_loss": 0.03611111111111111,
+        "p_real_loss": 0.16018518518518518,
+        "p_below_bills": 0.12407407407407407,
+        "worst_annualized": -0.0478773271457012,
+        "median_annualized": 0.07648910816252381,
+        "n_windows": 1080,
+        "n_independent": 18
+      },
+      "10y": {
+        "p_nominal_loss": 0.0,
+        "p_real_loss": 0.10294117647058823,
+        "p_below_bills": 0.04411764705882353,
+        "worst_annualized": 0.014762519739754705,
+        "median_annualized": 0.08000356825010545,
+        "n_windows": 1020,
+        "n_independent": 9
+      }
+    },
+    "shiller_stocks_1871_2023_gross": {
+      "1y": {
+        "p_nominal_loss": 0.27848101265822783,
+        "p_real_loss": 0.3109521188772702,
+        "p_below_bills": 0.27848101265822783,
+        "worst_annualized": -0.618969851048338,
+        "median_annualized": 0.10808126391654704,
+        "n_windows": 1817,
+        "n_independent": 152
+      },
+      "5y": {
+        "p_nominal_loss": 0.1040135669869983,
+        "p_real_loss": 0.18993781797625778,
+        "p_below_bills": 0.1040135669869983,
+        "worst_annualized": -0.17118586724521104,
+        "median_annualized": 0.09581221580970326,
+        "n_windows": 1769,
+        "n_independent": 30
+      },
+      "10y": {
+        "p_nominal_loss": 0.029256875365710942,
+        "p_real_loss": 0.11234640140433001,
+        "p_below_bills": 0.029256875365710942,
+        "worst_annualized": -0.039064030279943304,
+        "median_annualized": 0.08652652804678664,
+        "n_windows": 1709,
+        "n_independent": 15
+      }
+    }
+  },
+  "bootstrap": {
+    "stocks100|IRA|haircut0.0": {
+      "1y": {
+        "p_nominal_loss": 0.2393,
+        "p_real_loss": 0.2912,
+        "p_below_bills": 0.2894,
+        "p05_annualized": -0.2302763328662011,
+        "median_annualized": 0.13724464680494713
+      },
+      "5y": {
+        "p_nominal_loss": 0.1179,
+        "p_real_loss": 0.1965,
+        "p_below_bills": 0.1975,
+        "p05_annualized": -0.05860417498899507,
+        "median_annualized": 0.11490118043160608
+      },
+      "10y": {
+        "p_nominal_loss": 0.0654,
+        "p_real_loss": 0.127,
+        "p_below_bills": 0.139,
+        "p05_annualized": -0.012028867174220904,
+        "median_annualized": 0.10838537455209644
+      }
+    },
+    "stocks100|IRA|haircut0.03": {
+      "1y": {
+        "p_nominal_loss": 0.2871,
+        "p_real_loss": 0.3464,
+        "p_below_bills": 0.3416,
+        "p05_annualized": -0.2535925324079415,
+        "median_annualized": 0.10389075958429718
+      },
+      "5y": {
+        "p_nominal_loss": 0.1871,
+        "p_real_loss": 0.2983,
+        "p_below_bills": 0.2955,
+        "p05_annualized": -0.08667083515325745,
+        "median_annualized": 0.08216250753688022
+      },
+      "10y": {
+        "p_nominal_loss": 0.1291,
+        "p_real_loss": 0.2471,
+        "p_below_bills": 0.2613,
+        "p05_annualized": -0.04139218046949962,
+        "median_annualized": 0.07582394529890306
+      }
+    },
+    "s80_b20|IRA|haircut0.0": {
+      "1y": {
+        "p_nominal_loss": 0.2239,
+        "p_real_loss": 0.2843,
+        "p_below_bills": 0.2805,
+        "p05_annualized": -0.1745188322228217,
+        "median_annualized": 0.12190229266893163
+      },
+      "5y": {
+        "p_nominal_loss": 0.0892,
+        "p_real_loss": 0.1747,
+        "p_below_bills": 0.1759,
+        "p05_annualized": -0.0327959487424749,
+        "median_annualized": 0.10411140110668637
+      },
+      "10y": {
+        "p_nominal_loss": 0.0413,
+        "p_real_loss": 0.1007,
+        "p_below_bills": 0.1163,
+        "p05_annualized": 0.006065644707236799,
+        "median_annualized": 0.10008976565972943
+      }
+    },
+    "s80_b20|IRA|haircut0.03": {
+      "1y": {
+        "p_nominal_loss": 0.262,
+        "p_real_loss": 0.3348,
+        "p_below_bills": 0.333,
+        "p05_annualized": -0.19443941648850216,
+        "median_annualized": 0.09550449026439822
+      },
+      "5y": {
+        "p_nominal_loss": 0.1446,
+        "p_real_loss": 0.2743,
+        "p_below_bills": 0.2682,
+        "p05_annualized": -0.0558694794292898,
+        "median_annualized": 0.07810126909373048
+      },
+      "10y": {
+        "p_nominal_loss": 0.0883,
+        "p_real_loss": 0.2069,
+        "p_below_bills": 0.22,
+        "p05_annualized": -0.0178529866379731,
+        "median_annualized": 0.07415149527777676
+      }
+    },
+    "s60_b40|IRA|haircut0.0": {
+      "1y": {
+        "p_nominal_loss": 0.2025,
+        "p_real_loss": 0.2806,
+        "p_below_bills": 0.2738,
+        "p05_annualized": -0.11838752242316228,
+        "median_annualized": 0.10250247677988819
+      },
+      "5y": {
+        "p_nominal_loss": 0.0622,
+        "p_real_loss": 0.1569,
+        "p_below_bills": 0.1576,
+        "p05_annualized": -0.009891180737645767,
+        "median_annualized": 0.0911540167169654
+      },
+      "10y": {
+        "p_nominal_loss": 0.0213,
+        "p_real_loss": 0.0802,
+        "p_below_bills": 0.0932,
+        "p05_annualized": 0.01921431199006157,
+        "median_annualized": 0.08901094547681186
+      }
+    },
+    "s60_b40|IRA|haircut0.03": {
+      "1y": {
+        "p_nominal_loss": 0.2385,
+        "p_real_loss": 0.3351,
+        "p_below_bills": 0.3277,
+        "p05_annualized": -0.13431815586319873,
+        "median_annualized": 0.08297363461274283
+      },
+      "5y": {
+        "p_nominal_loss": 0.0982,
+        "p_real_loss": 0.2471,
+        "p_below_bills": 0.2402,
+        "p05_annualized": -0.02761944843592938,
+        "median_annualized": 0.0718097458600257
+      },
+      "10y": {
+        "p_nominal_loss": 0.0475,
+        "p_real_loss": 0.1653,
+        "p_below_bills": 0.1815,
+        "p05_annualized": 0.0010220953003076698,
+        "median_annualized": 0.06969770763948377
+      }
+    },
+    "s40_b60|IRA|haircut0.0": {
+      "1y": {
+        "p_nominal_loss": 0.1709,
+        "p_real_loss": 0.2883,
+        "p_below_bills": 0.2831,
+        "p05_annualized": -0.06979558089650775,
+        "median_annualized": 0.08069846778626207
+      },
+      "5y": {
+        "p_nominal_loss": 0.0383,
+        "p_real_loss": 0.1512,
+        "p_below_bills": 0.1413,
+        "p05_annualized": 0.00760082215890856,
+        "median_annualized": 0.07518907179352341
+      },
+      "10y": {
+        "p_nominal_loss": 0.0068,
+        "p_real_loss": 0.0739,
+        "p_below_bills": 0.0779,
+        "p05_annualized": 0.028447565295996808,
+        "median_annualized": 0.07529659860070712
+      }
+    },
+    "s40_b60|IRA|haircut0.03": {
+      "1y": {
+        "p_nominal_loss": 0.2072,
+        "p_real_loss": 0.328,
+        "p_below_bills": 0.3205,
+        "p05_annualized": -0.08097166986022664,
+        "median_annualized": 0.06786733760046418
+      },
+      "5y": {
+        "p_nominal_loss": 0.0573,
+        "p_real_loss": 0.2184,
+        "p_below_bills": 0.216,
+        "p05_annualized": -0.004420617704421197,
+        "median_annualized": 0.06243248054245559
+      },
+      "10y": {
+        "p_nominal_loss": 0.0172,
+        "p_real_loss": 0.1411,
+        "p_below_bills": 0.1508,
+        "p05_annualized": 0.016199389980938447,
+        "median_annualized": 0.0625378537155275
+      }
+    },
+    "s60_b40|taxable|haircut0.0": {
+      "1y": {
+        "p_nominal_loss": 0.2173,
+        "p_real_loss": 0.3063,
+        "p_below_bills": 0.3026,
+        "p05_annualized": -0.12694175347051354,
+        "median_annualized": 0.09201692210079639
+      },
+      "5y": {
+        "p_nominal_loss": 0.0782,
+        "p_real_loss": 0.202,
+        "p_below_bills": 0.1973,
+        "p05_annualized": -0.019414838070848806,
+        "median_annualized": 0.08076735896742086
+      },
+      "10y": {
+        "p_nominal_loss": 0.0319,
+        "p_real_loss": 0.1231,
+        "p_below_bills": 0.1361,
+        "p05_annualized": 0.009445545433593005,
+        "median_annualized": 0.0786411078320056
+      }
+    },
+    "s60_b40|taxable|haircut0.03": {
+      "1y": {
+        "p_nominal_loss": 0.2668,
+        "p_real_loss": 0.361,
+        "p_below_bills": 0.3608,
+        "p05_annualized": -0.142730574673709,
+        "median_annualized": 0.07265852095631473
+      },
+      "5y": {
+        "p_nominal_loss": 0.1265,
+        "p_real_loss": 0.2993,
+        "p_below_bills": 0.2935,
+        "p05_annualized": -0.036968986559964584,
+        "median_annualized": 0.06159272697073694
+      },
+      "10y": {
+        "p_nominal_loss": 0.0725,
+        "p_real_loss": 0.2329,
+        "p_below_bills": 0.2505,
+        "p05_annualized": -0.008585120893198536,
+        "median_annualized": 0.059497367432225265
+      }
+    }
+  },
+  "walk_forward": {
+    "IRA": {
+      "blocks": [
+        {
+          "test": "1951-01..1960-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.610796411060386
+        },
+        {
+          "test": "1961-01..1970-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.6781353639616182
+        },
+        {
+          "test": "1971-01..1980-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.630363055963335
+        },
+        {
+          "test": "1981-01..1990-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.5402073050215409
+        },
+        {
+          "test": "1991-01..2000-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.5109523449568346
+        },
+        {
+          "test": "2001-01..2010-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.5666304675953339
+        },
+        {
+          "test": "2011-01..2020-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.5812711004366524
+        }
+      ],
+      "selected": {
+        "cagr": 0.08958968924276389,
+        "real_cagr": 0.053713955653460044,
+        "vol": 0.07577526254429173,
+        "sharpe": 0.6368960079381133,
+        "max_drawdown": -0.16324363369429828,
+        "longest_underwater_months": 29,
+        "real_max_drawdown": -0.2942625176661148,
+        "real_longest_underwater_months": 72,
+        "worst_12m": -0.13384075727132883,
+        "excess_cagr_vs_bills": 0.04840484538608503
+      },
+      "base": {
+        "cagr": 0.0943668702340168,
+        "real_cagr": 0.0583338436065699,
+        "vol": 0.09570510824288164,
+        "sharpe": 0.5675467590067964,
+        "max_drawdown": -0.30286511239381664,
+        "longest_underwater_months": 40,
+        "real_max_drawdown": -0.41446180388808684,
+        "real_longest_underwater_months": 123,
+        "worst_12m": -0.26108184755598385,
+        "excess_cagr_vs_bills": 0.05318202637733793
+      }
+    },
+    "taxable": {
+      "blocks": [
+        {
+          "test": "1951-01..1960-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.610796411060386
+        },
+        {
+          "test": "1961-01..1970-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.6781353639616182
+        },
+        {
+          "test": "1971-01..1980-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.630363055963335
+        },
+        {
+          "test": "1981-01..1990-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.5402073050215409
+        },
+        {
+          "test": "1991-01..2000-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.5109523449568346
+        },
+        {
+          "test": "2001-01..2010-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.5666304675953339
+        },
+        {
+          "test": "2011-01..2020-12",
+          "chosen": "trend12",
+          "train_sharpe": 0.5812711004366524
+        }
+      ],
+      "selected": {
+        "cagr": 0.07571837104415269,
+        "real_cagr": 0.04029936324909844,
+        "vol": 0.07685175239406641,
+        "sharpe": 0.46162759056121305,
+        "max_drawdown": -0.1755211976096146,
+        "longest_underwater_months": 31,
+        "real_max_drawdown": -0.333445821223885,
+        "real_longest_underwater_months": 174,
+        "worst_12m": -0.1667980495700382,
+        "excess_cagr_vs_bills": 0.03453352718747382
+      },
+      "base": {
+        "cagr": 0.08526997720324814,
+        "real_cagr": 0.0495364740699058,
+        "vol": 0.09572949982296396,
+        "sharpe": 0.47967960543846594,
+        "max_drawdown": -0.311503855582118,
+        "longest_underwater_months": 42,
+        "real_max_drawdown": -0.4425338718002745,
+        "real_longest_underwater_months": 203,
+        "worst_12m": -0.26857270058396077,
+        "excess_cagr_vs_bills": 0.04408513334656927
+      }
+    }
+  },
+  "tlh": [
+    {
+      "start": "1929-06",
+      "contrib": 0.0,
+      "s60_b40": 0.029968295420235935,
+      "s60_b40_tlh": 0.030909290412401424,
+      "stocks100": 0.011925374870304428,
+      "stocks100_tlh": 0.018390096091526087
+    },
+    {
+      "start": "1929-06",
+      "contrib": 1000.0,
+      "s60_b40": 0.042754890761387165,
+      "s60_b40_tlh": 0.043086748340154135,
+      "stocks100": 0.04356157118481574,
+      "stocks100_tlh": 0.045675420436768754
+    },
+    {
+      "start": "1937-01",
+      "contrib": 0.0,
+      "s60_b40": 0.06471622070748018,
+      "s60_b40_tlh": 0.06724194430812813,
+      "stocks100": 0.09044064638728988,
+      "stocks100_tlh": 0.09502411837816116
+    },
+    {
+      "start": "1937-01",
+      "contrib": 1000.0,
+      "s60_b40": 0.07425035423820459,
+      "s60_b40_tlh": 0.07587245235195017,
+      "stocks100": 0.11049857994505696,
+      "stocks100_tlh": 0.11254006066613786
+    },
+    {
+      "start": "1966-01",
+      "contrib": 0.0,
+      "s60_b40": 0.06909688536683622,
+      "s60_b40_tlh": 0.07277153191602859,
+      "stocks100": 0.07893562466732329,
+      "stocks100_tlh": 0.08182091938817215
+    },
+    {
+      "start": "1966-01",
+      "contrib": 1000.0,
+      "s60_b40": 0.07866483404766533,
+      "s60_b40_tlh": 0.08074687273557568,
+      "stocks100": 0.08949534593748687,
+      "stocks100_tlh": 0.09125568208310464
+    },
+    {
+      "start": "1973-01",
+      "contrib": 0.0,
+      "s60_b40": 0.09325672278620145,
+      "s60_b40_tlh": 0.0975146918927593,
+      "stocks100": 0.10348859057293491,
+      "stocks100_tlh": 0.10666309584495581
+    },
+    {
+      "start": "1973-01",
+      "contrib": 1000.0,
+      "s60_b40": 0.10295721313742912,
+      "s60_b40_tlh": 0.10503616878658917,
+      "stocks100": 0.11611679959669574,
+      "stocks100_tlh": 0.11788374658537581
+    },
+    {
+      "start": "1987-06",
+      "contrib": 0.0,
+      "s60_b40": 0.08591806331613328,
+      "s60_b40_tlh": 0.08761358253709839,
+      "stocks100": 0.09736351820402056,
+      "stocks100_tlh": 0.09887459802369902
+    },
+    {
+      "start": "1987-06",
+      "contrib": 1000.0,
+      "s60_b40": 0.0837787545322689,
+      "s60_b40_tlh": 0.08505105367510468,
+      "stocks100": 0.09757597307410715,
+      "stocks100_tlh": 0.09878048095570258
+    },
+    {
+      "start": "2000-01",
+      "contrib": 0.0,
+      "s60_b40": 0.05755691024669518,
+      "s60_b40_tlh": 0.05931897768869632,
+      "stocks100": 0.05744626094284755,
+      "stocks100_tlh": 0.05857460033677053
+    },
+    {
+      "start": "2000-01",
+      "contrib": 1000.0,
+      "s60_b40": 0.062426415159197446,
+      "s60_b40_tlh": 0.06422608021688181,
+      "stocks100": 0.07310846695485951,
+      "stocks100_tlh": 0.07437808968010196
+    }
+  ],
+  "tlh_alpha_6040_mean": 0.0020036529284694162,
+  "cost_stress": [
+    {
+      "spread_mult": 1,
+      "slippage_bps": 1,
+      "commission": 0,
+      "liq_cagr": 0.08665393324326653
+    },
+    {
+      "spread_mult": 5,
+      "slippage_bps": 5,
+      "commission": 0,
+      "liq_cagr": 0.08654783697468438
+    },
+    {
+      "spread_mult": 10,
+      "slippage_bps": 10,
+      "commission": 0,
+      "liq_cagr": 0.0864879186096359
+    },
+    {
+      "spread_mult": 1,
+      "slippage_bps": 1,
+      "commission": 5.0,
+      "liq_cagr": 0.08651990294502854
+    }
+  ],
+  "econ": {
+    "historical_tax_drag_6040": 0.009628005484844104,
+    "base": {
+      "stock_return": 0.065,
+      "bond_return": 0.04,
+      "bill_return": 0.035,
+      "inflation": 0.025,
+      "expense_ratio": 0.0008,
+      "turnover": 0.10549290906115741,
+      "trade_cost_bps": 2.0,
+      "tax_drag": 0.0,
+      "bill_tax_rate": 0.0,
+      "fixed_cost_per_year": 60.0,
+      "operator_hours_per_year": 4.0,
+      "operator_hourly_value": 0.0,
+      "alt_fee": 0.0025
+    },
+    "by_account": [
+      {
+        "type": "IRA",
+        "account": 5000,
+        "net_return_rate": 0.054178901418187764,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 210.89450709093882,
+        "expected_real_gain": 85.89450709093882,
+        "expected_gain_vs_tbills": 35.8945070909388,
+        "fee_saved_vs_robo": -47.5,
+        "breakeven_account_nominal": 1107.4421671432804,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "taxable",
+        "account": 5000,
+        "net_return_rate": 0.04455089593334366,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 162.7544796667183,
+        "expected_real_gain": 37.7544796667183,
+        "expected_gain_vs_tbills": 29.754479666718282,
+        "fee_saved_vs_robo": -47.5,
+        "breakeven_account_nominal": 1346.77426217805,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "IRA",
+        "account": 10000,
+        "net_return_rate": 0.054178901418187764,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 481.78901418187763,
+        "expected_real_gain": 231.78901418187763,
+        "expected_gain_vs_tbills": 131.7890141818776,
+        "fee_saved_vs_robo": -35.0,
+        "breakeven_account_nominal": 1107.4421671432804,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "taxable",
+        "account": 10000,
+        "net_return_rate": 0.04455089593334366,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 385.5089593334366,
+        "expected_real_gain": 135.5089593334366,
+        "expected_gain_vs_tbills": 119.50895933343656,
+        "fee_saved_vs_robo": -35.0,
+        "breakeven_account_nominal": 1346.77426217805,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "IRA",
+        "account": 50000,
+        "net_return_rate": 0.054178901418187764,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 2648.945070909388,
+        "expected_real_gain": 1398.945070909388,
+        "expected_gain_vs_tbills": 898.945070909388,
+        "fee_saved_vs_robo": 65.0,
+        "breakeven_account_nominal": 1107.4421671432804,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "taxable",
+        "account": 50000,
+        "net_return_rate": 0.04455089593334366,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 2167.544796667183,
+        "expected_real_gain": 917.5447966671829,
+        "expected_gain_vs_tbills": 837.5447966671828,
+        "fee_saved_vs_robo": 65.0,
+        "breakeven_account_nominal": 1346.77426217805,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "IRA",
+        "account": 100000,
+        "net_return_rate": 0.054178901418187764,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 5357.890141818776,
+        "expected_real_gain": 2857.890141818776,
+        "expected_gain_vs_tbills": 1857.890141818776,
+        "fee_saved_vs_robo": 190.0,
+        "breakeven_account_nominal": 1107.4421671432804,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "taxable",
+        "account": 100000,
+        "net_return_rate": 0.04455089593334366,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 4395.089593334366,
+        "expected_real_gain": 1895.0895933343659,
+        "expected_gain_vs_tbills": 1735.0895933343656,
+        "fee_saved_vs_robo": 190.0,
+        "breakeven_account_nominal": 1346.77426217805,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "IRA",
+        "account": 500000,
+        "net_return_rate": 0.054178901418187764,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 27029.450709093882,
+        "expected_real_gain": 14529.45070909388,
+        "expected_gain_vs_tbills": 9529.45070909388,
+        "fee_saved_vs_robo": 1190.0,
+        "breakeven_account_nominal": 1107.4421671432804,
+        "breakeven_account_vs_robo": 24000.0
+      },
+      {
+        "type": "taxable",
+        "account": 500000,
+        "net_return_rate": 0.04455089593334366,
+        "fixed_costs": 60.0,
+        "expected_net_gain": 22215.44796667183,
+        "expected_real_gain": 9715.447966671829,
+        "expected_gain_vs_tbills": 8915.447966671829,
+        "fee_saved_vs_robo": 1190.0,
+        "breakeven_account_nominal": 1346.77426217805,
+        "breakeven_account_vs_robo": 24000.0
+      }
+    ],
+    "breakeven_nominal": 1107.4421671432804,
+    "breakeven_vs_robo": 24000.0,
+    "sensitivity_n": 144,
+    "sensitivity_negative": 0,
+    "sensitivity_below_tbills": 36
+  }
+}
