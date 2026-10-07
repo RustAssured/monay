@@ -37,18 +37,35 @@ def recommend(savings_vs_default: float, fee: float = 0.0) -> str:
     return "REVERT: optimizer is not beating the factory default; switch back (or cancel)"
 
 
-def best_plan(load, pv, b: Battery, tariffs, controllers=("no_battery", "self_consumption", "optimizer")):
-    """Exact bill for each (tariff, controller) on historical data; returns rows sorted by total cost.
-    'optimizer' here = perfect-foresight upper bound; use mpc for realistic numbers."""
+CONTROLLERS = ("no_battery", "self_consumption", "vendor_tou", "vendor_tou_grid_charge", "optimizer_mpc",
+               "optimizer_upper_bound")
+
+
+def run_controller(name, load, pv, imp, exp, b: Battery):
+    if name == "no_battery":
+        return D.no_battery(load, pv, imp, exp, b)
+    if name == "self_consumption":
+        return D.simulate(load, pv, imp, exp, b, D.self_consumption_controller(load, pv, b))
+    if name == "vendor_tou":
+        return D.simulate(load, pv, imp, exp, b, D.tou_rule_controller(load, pv, imp, b))
+    if name == "vendor_tou_grid_charge":
+        return D.simulate(load, pv, imp, exp, b, D.tou_rule_controller(load, pv, imp, b, grid_charge=True))
+    if name == "optimizer_mpc":
+        from .mpc import run_mpc
+        return run_mpc(load, pv, imp, exp, b)
+    if name == "optimizer_upper_bound":
+        return D.perfect_foresight(load, pv, imp, exp, b)
+    raise KeyError(name)
+
+
+def best_plan(load, pv, b: Battery, tariffs, controllers=("no_battery", "self_consumption", "optimizer_upper_bound")):
+    """Exact cost (bill + degradation) of each (tariff, controller) on historical data, cheapest first.
+    'optimizer_upper_bound' is perfect foresight (not achievable); 'optimizer_mpc' is the causal controller."""
     rows = []
     for t in tariffs:
         imp, exp = t.prices(len(load))
         for c in controllers:
-            if c == "no_battery":
-                r = D.no_battery(load, pv, imp, exp, b)
-            elif c == "self_consumption":
-                r = D.simulate(load, pv, imp, exp, b, D.self_consumption_controller(load, pv, b))
-            else:
-                r = D.perfect_foresight(load, pv, imp, exp, b)
-            rows.append({"tariff": t.name, "controller": c, "total_cost": r["total_cost"], "bill": r["bill"]})
+            r = run_controller(c, load, pv, imp, exp, b)
+            rows.append({"tariff": t.name, "controller": c, "total_cost": r["total_cost"], "bill": r["bill"],
+                         "achievable": c != "optimizer_upper_bound"})
     return sorted(rows, key=lambda r: r["total_cost"])

@@ -2,14 +2,14 @@
 
 All $ are per household per year, net of battery degradation cost; mean [min..max] over synthetic households.
 
-| case | optimizer vs factory default | optimizer vs vendor TOU rule | perfect-foresight vs default | optimizer vs no battery | MPC capture | cycles/yr |
-|---|---|---|---|---|---|---|
-| pv0kw|CA_TOU_illustrative | 149 [147..151] | 149 [147..151] | 159 [157..160] | 149 [147..151] | 94% | 99 |
-| pv0kw|cheap_nights_illustrative | 267 [266..268] | 267 [266..268] | 285 [284..285] | 267 [266..268] | 94% | 368 |
-| pv0kw|flat_illustrative | 0 [0..0] | 0 [0..0] | 0 [0..0] | 0 [0..0] | n/a | 0 |
-| pv6kw|CA_TOU_illustrative | -6 [-8..-4] | 99 [96..104] | 4 [3..5] | 1105 [1098..1112] | 99% | 316 |
-| pv6kw|cheap_nights_illustrative | 5 [4..5] | 4 [2..5] | 21 [21..21] | 363 [360..365] | 96% | 342 |
-| pv6kw|flat_illustrative | 209 [207..210] | 3 [3..3] | 209 [207..210] | 0 [0..0] | n/a | 0 |
+| case | optimizer vs factory default | optimizer vs vendor TOU (solar only) | optimizer vs vendor TOU + grid charge | perfect-foresight vs default | optimizer vs no battery | MPC capture | cycles/yr |
+|---|---|---|---|---|---|---|---|
+| pv0kw|CA_TOU_illustrative | 149 [147..151] | 149 [147..151] | -5 [-6..-5] | 159 [157..160] | 149 [147..151] | 94% | 99 |
+| pv0kw|cheap_nights_illustrative | 267 [266..268] | 267 [266..268] | 37 [37..37] | 285 [284..285] | 267 [266..268] | 94% | 368 |
+| pv0kw|flat_illustrative | 0 [0..0] | 0 [0..0] | 3 [3..3] | 0 [0..0] | 0 [0..0] | n/a | 0 |
+| pv6kw|CA_TOU_illustrative | -6 [-8..-4] | 99 [96..104] | 985 [978..990] | 4 [3..5] | 1105 [1098..1112] | 99% | 316 |
+| pv6kw|cheap_nights_illustrative | 5 [4..5] | 4 [2..5] | 135 [133..137] | 21 [21..21] | 363 [360..365] | 96% | 342 |
+| pv6kw|flat_illustrative | 209 [207..210] | 3 [3..3] | 3 [3..3] | 209 [207..210] | 0 [0..0] | n/a | 0 |
 
 ## Economics
 

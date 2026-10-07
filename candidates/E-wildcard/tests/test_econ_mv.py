@@ -64,7 +64,29 @@ class TestMeasurementAndVerification(unittest.TestCase):
         costs = [r["total_cost"] for r in rows]
         self.assertEqual(costs, sorted(costs))
         self.assertEqual(len(rows), 3 * len(TARIFFS))
+        self.assertTrue(all(r["achievable"] != (r["controller"] == "optimizer_upper_bound") for r in rows))
 
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestAdvise(unittest.TestCase):
+    def test_advise_csv_roundtrip(self):
+        import tempfile, os
+        from tou_battery.advise import main, read_csv
+        L, V = synthetic_load(2)[:24 * 7], synthetic_pv(2)[:24 * 7]
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "h.csv")
+            with open(p, "w") as f:
+                f.write("load_kwh,pv_kwh\n" + "".join(f"{a},{b}\n" for a, b in zip(L, V)))
+            L2, V2 = read_csv(p)
+            np.testing.assert_allclose(L2, L); np.testing.assert_allclose(V2, V)
+            import io, contextlib
+            with contextlib.redirect_stdout(io.StringIO()):
+                out = main(["--csv", p, "--tariff", "CA_TOU_illustrative", "--tariff", "cheap_nights_illustrative"])
+            self.assertGreaterEqual(out["annualised_saving_vs_current"], 0.0)
+            with open(p, "w") as f:
+                f.write("load_kwh\n1\n2\n")
+            with self.assertRaises(ValueError):
+                read_csv(p)

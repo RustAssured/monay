@@ -28,12 +28,15 @@
       "no_battery": 2790.2801,
       "default_self_consumption": 2790.2801,
       "vendor_tou_rule": 2790.2801,
+      "vendor_tou_grid_charge": 2636.8659,
       "perfect_foresight": 2632.9869,
       "optimizer_mpc": 2643.2766
      },
      "cycles_mpc": 97.1388,
      "mpc_vs_default": 147.0035,
      "mpc_vs_vendor_tou": 147.0035,
+     "mpc_vs_vendor_tou_grid": -6.4107,
+     "pf_vs_vendor_tou_grid": 3.8791,
      "pf_vs_default": 157.2933,
      "mpc_vs_no_battery": 147.0035,
      "pf_vs_no_battery": 157.2933
@@ -44,12 +47,15 @@
       "no_battery": 2790.1421,
       "default_self_consumption": 2790.1421,
       "vendor_tou_rule": 2790.1421,
+      "vendor_tou_grid_charge": 2634.3425,
       "perfect_foresight": 2630.3448,
       "optimizer_mpc": 2638.955
      },
      "cycles_mpc": 100.0761,
      "mpc_vs_default": 151.1871,
      "mpc_vs_vendor_tou": 151.1871,
+     "mpc_vs_vendor_tou_grid": -4.6125,
+     "pf_vs_vendor_tou_grid": 3.9977,
      "pf_vs_default": 159.7973,
      "mpc_vs_no_battery": 151.1871,
      "pf_vs_no_battery": 159.7973
@@ -60,12 +66,15 @@
       "no_battery": 2791.8869,
       "default_self_consumption": 2791.8869,
       "vendor_tou_rule": 2791.8869,
+      "vendor_tou_grid_charge": 2637.0786,
       "perfect_foresight": 2633.1987,
       "optimizer_mpc": 2642.2858
      },
      "cycles_mpc": 98.6222,
      "mpc_vs_default": 149.6011,
      "mpc_vs_vendor_tou": 149.6011,
+     "mpc_vs_vendor_tou_grid": -5.2072,
+     "pf_vs_vendor_tou_grid": 3.8799,
      "pf_vs_default": 158.6882,
      "mpc_vs_no_battery": 149.6011,
      "pf_vs_no_battery": 158.6882
@@ -81,6 +90,16 @@
      "mean": 149.2639,
      "min": 147.0035,
      "max": 151.1871
+    },
+    "mpc_vs_vendor_tou_grid": {
+     "mean": -5.4101,
+     "min": -6.4107,
+     "max": -4.6125
+    },
+    "pf_vs_vendor_tou_grid": {
+     "mean": 3.9189,
+     "min": 3.8791,
+     "max": 3.9977
     },
     "pf_vs_default": {
      "mean": 158.5929,
@@ -113,12 +132,15 @@
       "no_battery": 1168.4579,
       "default_self_consumption": 1168.4579,
       "vendor_tou_rule": 1168.4579,
+      "vendor_tou_grid_charge": 939.394,
       "perfect_foresight": 884.1981,
       "optimizer_mpc": 901.9805
      },
      "cycles_mpc": 366.5007,
      "mpc_vs_default": 266.4774,
      "mpc_vs_vendor_tou": 266.4774,
+     "mpc_vs_vendor_tou_grid": 37.4135,
+     "pf_vs_vendor_tou_grid": 55.1959,
      "pf_vs_default": 284.2598,
      "mpc_vs_no_battery": 266.4774,
      "pf_vs_no_battery": 284.2598
@@ -129,12 +151,15 @@
       "no_battery": 1168.5568,
       "default_self_consumption": 1168.5568,
       "vendor_tou_rule": 1168.5568,
+      "vendor_tou_grid_charge": 938.1509,
       "perfect_foresight": 883.0865,
       "optimizer_mpc": 900.7722
      },
      "cycles_mpc": 368.9196,
      "mpc_vs_default": 267.7846,
      "mpc_vs_vendor_tou": 267.7846,
+     "mpc_vs_vendor_tou_grid": 37.3787,
+     "pf_vs_vendor_tou_grid": 55.0643,
      "pf_vs_default": 285.4703,
      "mpc_vs_no_battery": 267.7846,
      "pf_vs_no_battery": 285.4703
@@ -145,12 +170,15 @@
       "no_battery": 1168.1465,
       "default_self_consumption": 1168.1465,
       "vendor_tou_rule": 1168.1465,
+      "vendor_tou_grid_charge": 939.0393,
       "perfect_foresight": 883.5206,
       "optimizer_mpc": 902.3647
      },
      "cycles_mpc": 367.2187,
      "mpc_vs_default": 265.7817,
      "mpc_vs_vendor_tou": 265.7817,
+     "mpc_vs_vendor_tou_grid": 36.6745,
+     "pf_vs_vendor_tou_grid": 55.5186,
      "pf_vs_default": 284.6259,
      "mpc_vs_no_battery": 265.7817,
      "pf_vs_no_battery": 284.6259
@@ -166,6 +194,16 @@
      "mean": 266.6812,
      "min": 265.7817,
      "max": 267.7846
+    },
+    "mpc_vs_vendor_tou_grid": {
+     "mean": 37.1556,
+     "min": 36.6745,
+     "max": 37.4135
+    },
+    "pf_vs_vendor_tou_grid": {
+     "mean": 55.2596,
+     "min": 55.0643,
+     "max": 55.5186
     },
     "pf_vs_default": {
      "mean": 284.7853,
@@ -198,12 +236,15 @@
       "no_battery": 2100.0,
       "default_self_consumption": 2100.0,
       "vendor_tou_rule": 2100.0,
+      "vendor_tou_grid_charge": 2103.4105,
       "perfect_foresight": 2100.0,
       "optimizer_mpc": 2100.0
      },
      "cycles_mpc": 0.0,
      "mpc_vs_default": 0.0,
      "mpc_vs_vendor_tou": 0.0,
+     "mpc_vs_vendor_tou_grid": 3.4105,
+     "pf_vs_vendor_tou_grid": 3.4105,
      "pf_vs_default": 0.0,
      "mpc_vs_no_battery": 0.0,
      "pf_vs_no_battery": 0.0
@@ -214,12 +255,15 @@
       "no_battery": 2100.0,
       "default_self_consumption": 2100.0,
       "vendor_tou_rule": 2100.0,
+      "vendor_tou_grid_charge": 2103.4105,
       "perfect_foresight": 2100.0,
       "optimizer_mpc": 2100.0
      },
      "cycles_mpc": 0.0,
      "mpc_vs_default": 0.0,
      "mpc_vs_vendor_tou": 0.0,
+     "mpc_vs_vendor_tou_grid": 3.4105,
+     "pf_vs_vendor_tou_grid": 3.4105,
      "pf_vs_default": 0.0,
      "mpc_vs_no_battery": 0.0,
      "pf_vs_no_battery": 0.0
@@ -230,12 +274,15 @@
       "no_battery": 2100.0,
       "default_self_consumption": 2100.0,
       "vendor_tou_rule": 2100.0,
+      "vendor_tou_grid_charge": 2103.4105,
       "perfect_foresight": 2100.0,
       "optimizer_mpc": 2100.0
      },
      "cycles_mpc": 0.0,
      "mpc_vs_default": 0.0,
      "mpc_vs_vendor_tou": 0.0,
+     "mpc_vs_vendor_tou_grid": 3.4105,
+     "pf_vs_vendor_tou_grid": 3.4105,
      "pf_vs_default": 0.0,
      "mpc_vs_no_battery": 0.0,
      "pf_vs_no_battery": 0.0
@@ -251,6 +298,16 @@
      "mean": 0.0,
      "min": 0.0,
      "max": 0.0
+    },
+    "mpc_vs_vendor_tou_grid": {
+     "mean": 3.4105,
+     "min": 3.4105,
+     "max": 3.4105
+    },
+    "pf_vs_vendor_tou_grid": {
+     "mean": 3.4105,
+     "min": 3.4105,
+     "max": 3.4105
     },
     "pf_vs_default": {
      "mean": 0.0,
@@ -283,12 +340,15 @@
       "no_battery": 1495.072,
       "default_self_consumption": 389.8602,
       "vendor_tou_rule": 501.1473,
+      "vendor_tou_grid_charge": 1375.1834,
       "perfect_foresight": 386.8751,
       "optimizer_mpc": 397.4464
      },
      "cycles_mpc": 314.0166,
      "mpc_vs_default": -7.5862,
      "mpc_vs_vendor_tou": 103.7009,
+     "mpc_vs_vendor_tou_grid": 977.737,
+     "pf_vs_vendor_tou_grid": 988.3083,
      "pf_vs_default": 2.9851,
      "mpc_vs_no_battery": 1097.6256,
      "pf_vs_no_battery": 1108.1969
@@ -299,12 +359,15 @@
       "no_battery": 1495.1591,
       "default_self_consumption": 383.3375,
       "vendor_tou_rule": 485.0218,
+      "vendor_tou_grid_charge": 1374.7631,
       "perfect_foresight": 379.8954,
       "optimizer_mpc": 389.0338
      },
      "cycles_mpc": 315.957,
      "mpc_vs_default": -5.6963,
      "mpc_vs_vendor_tou": 95.9881,
+     "mpc_vs_vendor_tou_grid": 985.7293,
+     "pf_vs_vendor_tou_grid": 994.8676,
      "pf_vs_default": 3.4421,
      "mpc_vs_no_battery": 1106.1253,
      "pf_vs_no_battery": 1115.2637
@@ -315,12 +378,15 @@
       "no_battery": 1498.6438,
       "default_self_consumption": 382.6282,
       "vendor_tou_rule": 484.1963,
+      "vendor_tou_grid_charge": 1377.4631,
       "perfect_foresight": 377.6992,
       "optimizer_mpc": 387.0347
      },
      "cycles_mpc": 318.8606,
      "mpc_vs_default": -4.4065,
      "mpc_vs_vendor_tou": 97.1616,
+     "mpc_vs_vendor_tou_grid": 990.4284,
+     "pf_vs_vendor_tou_grid": 999.7639,
      "pf_vs_default": 4.929,
      "mpc_vs_no_battery": 1111.6091,
      "pf_vs_no_battery": 1120.9446
@@ -336,6 +402,16 @@
      "mean": 98.9502,
      "min": 95.9881,
      "max": 103.7009
+    },
+    "mpc_vs_vendor_tou_grid": {
+     "mean": 984.6316,
+     "min": 977.737,
+     "max": 990.4284
+    },
+    "pf_vs_vendor_tou_grid": {
+     "mean": 994.3133,
+     "min": 988.3083,
+     "max": 999.7639
     },
     "pf_vs_default": {
      "mean": 3.7854,
@@ -368,12 +444,15 @@
       "no_battery": 521.7907,
       "default_self_consumption": 166.0242,
       "vendor_tou_rule": 166.1719,
+      "vendor_tou_grid_charge": 294.6243,
       "perfect_foresight": 144.7041,
       "optimizer_mpc": 161.9247
      },
      "cycles_mpc": 341.216,
      "mpc_vs_default": 4.0995,
      "mpc_vs_vendor_tou": 4.2471,
+     "mpc_vs_vendor_tou_grid": 132.6996,
+     "pf_vs_vendor_tou_grid": 149.9202,
      "pf_vs_default": 21.3202,
      "mpc_vs_no_battery": 359.866,
      "pf_vs_no_battery": 377.0866
@@ -384,12 +463,15 @@
       "no_battery": 522.4552,
       "default_self_consumption": 162.8141,
       "vendor_tou_rule": 161.9519,
+      "vendor_tou_grid_charge": 294.2224,
       "perfect_foresight": 142.0052,
       "optimizer_mpc": 157.3473
      },
      "cycles_mpc": 344.4668,
      "mpc_vs_default": 5.4669,
      "mpc_vs_vendor_tou": 4.6046,
+     "mpc_vs_vendor_tou_grid": 136.8751,
+     "pf_vs_vendor_tou_grid": 152.2172,
      "pf_vs_default": 20.8089,
      "mpc_vs_no_battery": 365.1079,
      "pf_vs_no_battery": 380.4499
@@ -400,12 +482,15 @@
       "no_battery": 522.9354,
       "default_self_consumption": 162.1148,
       "vendor_tou_rule": 160.1697,
+      "vendor_tou_grid_charge": 294.0626,
       "perfect_foresight": 141.0791,
       "optimizer_mpc": 157.9195
      },
      "cycles_mpc": 340.8406,
      "mpc_vs_default": 4.1952,
      "mpc_vs_vendor_tou": 2.2502,
+     "mpc_vs_vendor_tou_grid": 136.1431,
+     "pf_vs_vendor_tou_grid": 152.9836,
      "pf_vs_default": 21.0357,
      "mpc_vs_no_battery": 365.0159,
      "pf_vs_no_battery": 381.8564
@@ -421,6 +506,16 @@
      "mean": 3.7006,
      "min": 2.2502,
      "max": 4.6046
+    },
+    "mpc_vs_vendor_tou_grid": {
+     "mean": 135.2393,
+     "min": 132.6996,
+     "max": 136.8751
+    },
+    "pf_vs_vendor_tou_grid": {
+     "mean": 151.707,
+     "min": 149.9202,
+     "max": 152.9836
     },
     "pf_vs_default": {
      "mean": 21.0549,
@@ -453,12 +548,15 @@
       "no_battery": -600.0,
       "default_self_consumption": -392.5878,
       "vendor_tou_rule": -596.5895,
+      "vendor_tou_grid_charge": -596.5895,
       "perfect_foresight": -600.0,
       "optimizer_mpc": -600.0
      },
      "cycles_mpc": 0.0,
      "mpc_vs_default": 207.4122,
      "mpc_vs_vendor_tou": 3.4105,
+     "mpc_vs_vendor_tou_grid": 3.4105,
+     "pf_vs_vendor_tou_grid": 3.4105,
      "pf_vs_default": 207.4122,
      "mpc_vs_no_battery": 0.0,
      "pf_vs_no_battery": 0.0
@@ -469,12 +567,15 @@
       "no_battery": -600.0,
       "default_self_consumption": -391.5932,
       "vendor_tou_rule": -596.5895,
+      "vendor_tou_grid_charge": -596.5895,
       "perfect_foresight": -600.0,
       "optimizer_mpc": -600.0
      },
      "cycles_mpc": 0.0,
      "mpc_vs_default": 208.4068,
      "mpc_vs_vendor_tou": 3.4105,
+     "mpc_vs_vendor_tou_grid": 3.4105,
+     "pf_vs_vendor_tou_grid": 3.4105,
      "pf_vs_default": 208.4068,
      "mpc_vs_no_battery": 0.0,
      "pf_vs_no_battery": 0.0
@@ -485,12 +586,15 @@
       "no_battery": -600.0,
       "default_self_consumption": -390.0312,
       "vendor_tou_rule": -596.5895,
+      "vendor_tou_grid_charge": -596.5895,
       "perfect_foresight": -600.0,
       "optimizer_mpc": -600.0
      },
      "cycles_mpc": 0.0,
      "mpc_vs_default": 209.9688,
      "mpc_vs_vendor_tou": 3.4105,
+     "mpc_vs_vendor_tou_grid": 3.4105,
+     "pf_vs_vendor_tou_grid": 3.4105,
      "pf_vs_default": 209.9688,
      "mpc_vs_no_battery": 0.0,
      "pf_vs_no_battery": 0.0
@@ -503,6 +607,16 @@
      "max": 209.9688
     },
     "mpc_vs_vendor_tou": {
+     "mean": 3.4105,
+     "min": 3.4105,
+     "max": 3.4105
+    },
+    "mpc_vs_vendor_tou_grid": {
+     "mean": 3.4105,
+     "min": 3.4105,
+     "max": 3.4105
+    },
+    "pf_vs_vendor_tou_grid": {
      "mean": 3.4105,
      "min": 3.4105,
      "max": 3.4105
@@ -702,5 +816,5 @@
   "solar_export_0.05_min_later_price": 0.087,
   "daily_upper_bound_cheap_nights_0.08_to_0.24": 1.2289
  },
- "runtime_seconds": 180.1554
+ "runtime_seconds": 185.1152
 }
