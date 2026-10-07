@@ -1,0 +1,34 @@
+{
+ "ecosystem": "npm",
+ "name": "colors",
+ "version": "1.4.0",
+ "health": 39.0,
+ "abandonment_risk": "high",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 30
+ },
+ "flags": [
+  "single_maintainer"
+ ],
+ "reasons": [
+  "Only one registry maintainer (bus-factor risk).",
+  "Last release 2571 days ago.",
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 2571,
+ "releases_last_year": 0,
+ "n_releases": 26,
+ "repo_url": "git+ssh://git@github.com/Marak/colors.js.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:09+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

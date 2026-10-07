@@ -1,0 +1,31 @@
+{
+ "ecosystem": "npm",
+ "name": "mysql",
+ "version": "2.18.1",
+ "health": 46.0,
+ "abandonment_risk": "high",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 100
+ },
+ "flags": [],
+ "reasons": [
+  "Last release 2449 days ago.",
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 2449,
+ "releases_last_year": 0,
+ "n_releases": 65,
+ "repo_url": "git+https://github.com/mysqljs/mysql.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:10+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

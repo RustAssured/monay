@@ -1,0 +1,34 @@
+{
+ "ecosystem": "npm",
+ "name": "mkdirp",
+ "version": "3.0.1",
+ "health": 49.0,
+ "abandonment_risk": "high",
+ "components": {
+  "recency": 40,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 30
+ },
+ "flags": [
+  "single_maintainer"
+ ],
+ "reasons": [
+  "Only one registry maintainer (bus-factor risk).",
+  "Last release 1262 days ago.",
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 1262,
+ "releases_last_year": 0,
+ "n_releases": 42,
+ "repo_url": "git+https://github.com/isaacs/node-mkdirp.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

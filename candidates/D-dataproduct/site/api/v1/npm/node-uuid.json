@@ -1,0 +1,33 @@
+{
+ "ecosystem": "npm",
+ "name": "node-uuid",
+ "version": "1.4.8",
+ "health": 10,
+ "abandonment_risk": "critical",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 70
+ },
+ "flags": [
+  "deprecated",
+  "license_unknown"
+ ],
+ "reasons": [
+  "Last release 3486 days ago.",
+  "No releases in the past 12 months.",
+  "Marked deprecated on registry: Use uuid module instead"
+ ],
+ "days_since_release": 3486,
+ "releases_last_year": 0,
+ "n_releases": 14,
+ "repo_url": "git+https://github.com/broofa/node-uuid.git",
+ "license_raw": "",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:09+00:00",
+ "license_class": "unknown",
+ "license_ids": [],
+ "license_source": "metadata"
+}

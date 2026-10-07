@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "matplotlib",
+ "version": "3.11.2",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 26,
+ "releases_last_year": 8,
+ "n_releases": 114,
+ "repo_url": "https://github.com/matplotlib/matplotlib/issues",
+ "license_raw": "License agreement for matplotlib versions 1.3.0 and later",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "PSF-2.0"
+ ],
+ "license_source": "classifier"
+}

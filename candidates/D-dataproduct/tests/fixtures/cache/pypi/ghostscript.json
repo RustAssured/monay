@@ -1,0 +1,27 @@
+{
+ "deprecated": null,
+ "description": "Interface to the Ghostscript C-API, both high- and low-level, based on ctypes",
+ "dev_status": 5,
+ "ecosystem": "pypi",
+ "fetched_at": "2026-10-07T20:51:59+00:00",
+ "latest_release": "2025-05-28T19:19:55+00:00",
+ "latest_version": "0.8.1",
+ "latest_yanked": false,
+ "license_classifiers": [],
+ "license_raw": "GPL-3.0-or-later",
+ "maintainers": null,
+ "name": "ghostscript",
+ "release_dates": [
+  "2010-08-06T15:07:34+00:00",
+  "2010-08-06T18:51:53+00:00",
+  "2010-08-12T14:57:03+00:00",
+  "2011-01-29T15:20:03+00:00",
+  "2011-02-09T10:58:16+00:00",
+  "2018-01-16T22:13:18+00:00",
+  "2018-01-16T22:13:19+00:00",
+  "2021-03-06T15:56:01+00:00",
+  "2025-05-28T18:48:12+00:00",
+  "2025-05-28T19:19:55+00:00"
+ ],
+ "repo_url": "https://pypi.python.org/pypi/ghostscript"
+}

@@ -1,0 +1,28 @@
+{
+ "ecosystem": "npm",
+ "name": "redis",
+ "version": "6.3.0",
+ "health": 100.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 100
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 7,
+ "releases_last_year": 13,
+ "n_releases": 188,
+ "repo_url": "git://github.com/redis/node-redis.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:10+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

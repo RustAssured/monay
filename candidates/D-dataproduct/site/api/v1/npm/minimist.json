@@ -1,0 +1,31 @@
+{
+ "ecosystem": "npm",
+ "name": "minimist",
+ "version": "1.2.8",
+ "health": 56.0,
+ "abandonment_risk": "medium",
+ "components": {
+  "recency": 40,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 100
+ },
+ "flags": [],
+ "reasons": [
+  "Last release 1335 days ago.",
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 1335,
+ "releases_last_year": 0,
+ "n_releases": 31,
+ "repo_url": "git://github.com/minimistjs/minimist.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

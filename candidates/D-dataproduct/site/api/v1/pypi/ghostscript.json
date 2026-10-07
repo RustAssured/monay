@@ -1,0 +1,30 @@
+{
+ "ecosystem": "pypi",
+ "name": "ghostscript",
+ "version": "0.8.1",
+ "health": 64.0,
+ "abandonment_risk": "medium",
+ "components": {
+  "recency": 70,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 497,
+ "releases_last_year": 0,
+ "n_releases": 10,
+ "repo_url": "https://pypi.python.org/pypi/ghostscript",
+ "license_raw": "GPL-3.0-or-later",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "strong_copyleft",
+ "license_ids": [
+  "GPL-3.0"
+ ],
+ "license_source": "metadata"
+}

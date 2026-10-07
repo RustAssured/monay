@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "certifi",
+ "version": "2026.7.22",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 77,
+ "releases_last_year": 7,
+ "n_releases": 74,
+ "repo_url": "https://github.com/certifi/python-certifi",
+ "license_raw": "MPL-2.0",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:06+00:00",
+ "license_class": "weak_copyleft",
+ "license_ids": [
+  "MPL-2.0"
+ ],
+ "license_source": "metadata"
+}

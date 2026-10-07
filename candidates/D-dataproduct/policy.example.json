@@ -1,0 +1,7 @@
+{
+  "min_health": 30,
+  "deny_license_classes": ["network_copyleft", "source_available"],
+  "warn_license_classes": ["strong_copyleft", "unknown"],
+  "deny_flags": ["deprecated", "archived_repo"],
+  "allow": ["npm:inherits"]
+}

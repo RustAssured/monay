@@ -1,0 +1,3676 @@
+{
+ "meta": {
+  "generated_at": "2026-10-07T20:56:06+00:00",
+  "method": "2026.10-1",
+  "count": 124,
+  "sources": [
+   "https://pypi.org/pypi/<name>/json",
+   "https://registry.npmjs.org/<name>"
+  ],
+  "license": "Scores: CC-BY-4.0. Underlying metadata belongs to the respective registries/authors."
+ },
+ "packages": [
+  {
+   "ecosystem": "npm",
+   "name": "coffee-script",
+   "version": "1.12.7",
+   "health": 10,
+   "abandonment_risk": "critical",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [
+    "deprecated"
+   ],
+   "reasons": [
+    "Last release 3369 days ago.",
+    "No releases in the past 12 months.",
+    "Marked deprecated on registry: CoffeeScript on NPM has moved to \"coffeescript\" (no hyphen)"
+   ],
+   "days_since_release": 3369,
+   "releases_last_year": 0,
+   "n_releases": 45,
+   "repo_url": "git://github.com/jashkenas/coffeescript.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "left-pad",
+   "version": "1.3.0",
+   "health": 10,
+   "abandonment_risk": "critical",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [
+    "deprecated"
+   ],
+   "reasons": [
+    "Last release 3103 days ago.",
+    "No releases in the past 12 months.",
+    "Marked deprecated on registry: use String.prototype.padStart()"
+   ],
+   "days_since_release": 3103,
+   "releases_last_year": 0,
+   "n_releases": 15,
+   "repo_url": "git+ssh://git@github.com/stevemao/left-pad.git",
+   "license_raw": "WTFPL",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "WTFPL"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "node-sass",
+   "version": "9.0.0",
+   "health": 10,
+   "abandonment_risk": "critical",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [
+    "deprecated"
+   ],
+   "reasons": [
+    "Last release 1236 days ago.",
+    "No releases in the past 12 months.",
+    "Marked deprecated on registry: Node Sass is no longer supported. Please use `sass` or `sass-embedded` instead."
+   ],
+   "days_since_release": 1236,
+   "releases_last_year": 0,
+   "n_releases": 148,
+   "repo_url": "git+https://github.com/sass/node-sass.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "node-uuid",
+   "version": "1.4.8",
+   "health": 10,
+   "abandonment_risk": "critical",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [
+    "deprecated",
+    "license_unknown"
+   ],
+   "reasons": [
+    "Last release 3486 days ago.",
+    "No releases in the past 12 months.",
+    "Marked deprecated on registry: Use uuid module instead"
+   ],
+   "days_since_release": 3486,
+   "releases_last_year": 0,
+   "n_releases": 14,
+   "repo_url": "git+https://github.com/broofa/node-uuid.git",
+   "license_raw": "",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "unknown",
+   "license_ids": [],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "querystring",
+   "version": "0.2.1",
+   "health": 10,
+   "abandonment_risk": "critical",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 80,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [
+    "deprecated"
+   ],
+   "reasons": [
+    "Last release 2060 days ago.",
+    "No releases in the past 12 months.",
+    "Marked deprecated on registry: The querystring API is considered Legacy. new code should use the URLSearchParams API instead."
+   ],
+   "days_since_release": 2060,
+   "releases_last_year": 0,
+   "n_releases": 5,
+   "repo_url": "git://github.com/Gozala/querystring.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "request",
+   "version": "2.88.2",
+   "health": 10,
+   "abandonment_risk": "critical",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [
+    "deprecated"
+   ],
+   "reasons": [
+    "Last release 2430 days ago.",
+    "No releases in the past 12 months.",
+    "Marked deprecated on registry: request has been deprecated, see https://github.com/request/request/issues/3142"
+   ],
+   "days_since_release": 2430,
+   "releases_last_year": 0,
+   "n_releases": 126,
+   "repo_url": "git+https://github.com/request/request.git",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tslint",
+   "version": "6.1.3",
+   "health": 10,
+   "abandonment_risk": "critical",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer",
+    "deprecated"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk).",
+    "Last release 2259 days ago.",
+    "No releases in the past 12 months.",
+    "Marked deprecated on registry: TSLint has been deprecated in favor of ESLint. Please see https://github.com/palantir/tslint/issues/4534 for more inform"
+   ],
+   "days_since_release": 2259,
+   "releases_last_year": 0,
+   "n_releases": 182,
+   "repo_url": "https://github.com/palantir/tslint.git",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "inherits",
+   "version": "2.0.4",
+   "health": 36.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 80,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk).",
+    "Last release 2667 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 2667,
+   "releases_last_year": 0,
+   "n_releases": 7,
+   "repo_url": "git://github.com/isaacs/inherits.git",
+   "license_raw": "ISC",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "ISC"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "bluebird",
+   "version": "3.7.2",
+   "health": 39.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk).",
+    "Last release 2504 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 2504,
+   "releases_last_year": 0,
+   "n_releases": 223,
+   "repo_url": "git://github.com/petkaantonov/bluebird.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "colors",
+   "version": "1.4.0",
+   "health": 39.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk).",
+    "Last release 2571 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 2571,
+   "releases_last_year": 0,
+   "n_releases": 26,
+   "repo_url": "git+ssh://git@github.com/Marak/colors.js.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "faker",
+   "version": "6.6.6",
+   "health": 39.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk).",
+    "Last release 1736 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 1736,
+   "releases_last_year": 0,
+   "n_releases": 29,
+   "repo_url": "git+ssh://git@github.com/Marak/Faker.js.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pycrypto",
+   "version": "2.6.1",
+   "health": 39.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 80,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 4492 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 4492,
+   "releases_last_year": 0,
+   "n_releases": 9,
+   "repo_url": "http://www.pycrypto.org/",
+   "license_raw": "Public domain",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Unlicense"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "fuzzywuzzy",
+   "version": "0.18.0",
+   "health": 42.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 2427 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 2427,
+   "releases_last_year": 0,
+   "n_releases": 27,
+   "repo_url": "https://github.com/seatgeek/fuzzywuzzy",
+   "license_raw": "GPLv2",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "strong_copyleft",
+   "license_ids": [
+    "GPL-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "nose",
+   "version": "1.3.7",
+   "health": 42.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 4145 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 4145,
+   "releases_last_year": 0,
+   "n_releases": 13,
+   "repo_url": "http://readthedocs.org/docs/nose/",
+   "license_raw": "GNU LGPL",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "weak_copyleft",
+   "license_ids": [
+    "LGPL-3.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "bower",
+   "version": "1.8.14",
+   "health": 43.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 1668 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 1668,
+   "releases_last_year": 0,
+   "n_releases": 99,
+   "repo_url": "bower/bower",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "mysql",
+   "version": "2.18.1",
+   "health": 46.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 2449 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 2449,
+   "releases_last_year": 0,
+   "n_releases": 65,
+   "repo_url": "git+https://github.com/mysqljs/mysql.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "prop-types",
+   "version": "15.8.1",
+   "health": 46.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 15,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 1736 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 1736,
+   "releases_last_year": 0,
+   "n_releases": 24,
+   "repo_url": "git+https://github.com/facebook/prop-types.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "mkdirp",
+   "version": "3.0.1",
+   "health": 49.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk).",
+    "Last release 1262 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 1262,
+   "releases_last_year": 0,
+   "n_releases": 42,
+   "repo_url": "git+https://github.com/isaacs/node-mkdirp.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "PyQt5",
+   "version": "5.15.11",
+   "health": 52.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 810 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 810,
+   "releases_last_year": 0,
+   "n_releases": 35,
+   "repo_url": "https://www.riverbankcomputing.com/software/pyqt/",
+   "license_raw": "GPL v3",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "strong_copyleft",
+   "license_ids": [
+    "GPL-3.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "colorama",
+   "version": "0.4.6",
+   "health": 52.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 1443 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 1443,
+   "releases_last_year": 0,
+   "n_releases": 45,
+   "repo_url": "https://github.com/tartley/colorama",
+   "license_raw": "",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "classifier"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "python-dateutil",
+   "version": "2.9.0.post0",
+   "health": 52.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 950 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 950,
+   "releases_last_year": 0,
+   "n_releases": 26,
+   "repo_url": "https://github.com/dateutil/dateutil",
+   "license_raw": "Dual License",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0",
+    "BSD-3-Clause"
+   ],
+   "license_source": "classifier"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "classnames",
+   "version": "2.5.1",
+   "health": 53.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 1013 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 1013,
+   "releases_last_year": 0,
+   "n_releases": 30,
+   "repo_url": "git+https://github.com/JedWatson/classnames.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "ghostscript4js",
+   "version": "3.2.3",
+   "health": 53.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 835 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 835,
+   "releases_last_year": 0,
+   "n_releases": 24,
+   "repo_url": "git+https://github.com/NickNaso/ghostscript4js.git",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pluggy",
+   "version": "1.6.0",
+   "health": 54.0,
+   "abandonment_risk": "high",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 0,
+    "bus_factor": 60
+   },
+   "flags": [
+    "no_source_link"
+   ],
+   "reasons": [
+    "No releases in the past 12 months.",
+    "No source repository link in registry metadata."
+   ],
+   "days_since_release": 510,
+   "releases_last_year": 0,
+   "n_releases": 23,
+   "repo_url": null,
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "async",
+   "version": "3.2.6",
+   "health": 56.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 778 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 778,
+   "releases_last_year": 0,
+   "n_releases": 93,
+   "repo_url": "git+https://github.com/caolan/async.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "minimist",
+   "version": "1.2.8",
+   "health": 56.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 40,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [
+    "Last release 1335 days ago.",
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 1335,
+   "releases_last_year": 0,
+   "n_releases": 31,
+   "repo_url": "git://github.com/minimistjs/minimist.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "Jinja2",
+   "version": "3.1.6",
+   "health": 64.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 581,
+   "releases_last_year": 0,
+   "n_releases": 52,
+   "repo_url": "https://github.com/pallets/jinja/",
+   "license_raw": "",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "classifier"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "PyYAML",
+   "version": "6.0.3",
+   "health": 64.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 376,
+   "releases_last_year": 0,
+   "n_releases": 30,
+   "repo_url": "https://github.com/yaml/pyyaml/issues",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "ghostscript",
+   "version": "0.8.1",
+   "health": 64.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 497,
+   "releases_last_year": 0,
+   "n_releases": 10,
+   "repo_url": "https://pypi.python.org/pypi/ghostscript",
+   "license_raw": "GPL-3.0-or-later",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "strong_copyleft",
+   "license_ids": [
+    "GPL-3.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "mock",
+   "version": "5.2.0",
+   "health": 64.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 583,
+   "releases_last_year": 0,
+   "n_releases": 39,
+   "repo_url": "https://github.com/testing-cabal/mock",
+   "license_raw": "",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "classifier"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "six",
+   "version": "1.17.0",
+   "health": 64.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 672,
+   "releases_last_year": 0,
+   "n_releases": 29,
+   "repo_url": "https://github.com/benjaminp/six",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:06+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "debug",
+   "version": "4.4.3",
+   "health": 65.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 389,
+   "releases_last_year": 0,
+   "n_releases": 77,
+   "repo_url": "git://github.com/debug-js/debug.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "gulp",
+   "version": "5.0.1",
+   "health": 65.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 492,
+   "releases_last_year": 0,
+   "n_releases": 68,
+   "repo_url": "git+https://github.com/gulpjs/gulp.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "tslib",
+   "version": "2.8.1",
+   "health": 68.0,
+   "abandonment_risk": "medium",
+   "components": {
+    "recency": 70,
+    "cadence": 20,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [
+    "No releases in the past 12 months."
+   ],
+   "days_since_release": 705,
+   "releases_last_year": 0,
+   "n_releases": 46,
+   "repo_url": "git+https://github.com/Microsoft/tslib.git",
+   "license_raw": "0BSD",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "0BSD"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "httpx",
+   "version": "0.28.1",
+   "health": 80.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 70,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 670,
+   "releases_last_year": 3,
+   "n_releases": 76,
+   "repo_url": "https://github.com/encode/httpx/blob/master/CHANGELOG.md",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "jsonwebtoken",
+   "version": "9.0.3",
+   "health": 83.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 307,
+   "releases_last_year": 1,
+   "n_releases": 82,
+   "repo_url": "git+https://github.com/auth0/node-jsonwebtoken.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "Flask",
+   "version": "3.1.3",
+   "health": 86.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 230,
+   "releases_last_year": 1,
+   "n_releases": 64,
+   "repo_url": "https://github.com/pallets/flask/",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "MarkupSafe",
+   "version": "3.0.4",
+   "health": 86.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 4,
+   "releases_last_year": 1,
+   "n_releases": 36,
+   "repo_url": "https://github.com/pallets/markupsafe/",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "attrs",
+   "version": "26.1.0",
+   "health": 86.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 202,
+   "releases_last_year": 1,
+   "n_releases": 35,
+   "repo_url": "https://github.com/sponsors/hynek",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "paramiko",
+   "version": "5.0.0",
+   "health": 86.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 151,
+   "releases_last_year": 1,
+   "n_releases": 151,
+   "repo_url": "https://github.com/paramiko/paramiko/issues",
+   "license_raw": "LGPL-2.1",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "weak_copyleft",
+   "license_ids": [
+    "LGPL-2.1"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pycparser",
+   "version": "3.0",
+   "health": 86.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 259,
+   "releases_last_year": 1,
+   "n_releases": 24,
+   "repo_url": "https://github.com/eliben/pycparser",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "underscore",
+   "version": "1.13.8",
+   "health": 87.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 230,
+   "releases_last_year": 1,
+   "n_releases": 55,
+   "repo_url": "git://github.com/jashkenas/underscore.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "chalk",
+   "version": "6.0.1",
+   "health": 89.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 10,
+   "releases_last_year": 2,
+   "n_releases": 45,
+   "repo_url": "git+https://github.com/chalk/chalk.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "lodash",
+   "version": "4.18.1",
+   "health": 89.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 188,
+   "releases_last_year": 3,
+   "n_releases": 117,
+   "repo_url": "git+https://github.com/lodash/lodash.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "rimraf",
+   "version": "6.1.3",
+   "health": 89.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 233,
+   "releases_last_year": 4,
+   "n_releases": 86,
+   "repo_url": "git+ssh://git@github.com/isaacs/rimraf.git",
+   "license_raw": "BlueOak-1.0.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BlueOak-1.0.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "cors",
+   "version": "2.8.6",
+   "health": 90.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 258,
+   "releases_last_year": 1,
+   "n_releases": 35,
+   "repo_url": "git+https://github.com/expressjs/cors.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "moment",
+   "version": "2.31.0",
+   "health": 90.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 60,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 22,
+   "releases_last_year": 1,
+   "n_releases": 77,
+   "repo_url": "github:moment/moment",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "PyMySQL",
+   "version": "1.2.3",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 20,
+   "releases_last_year": 5,
+   "n_releases": 46,
+   "repo_url": "https://github.com/PyMySQL/PyMySQL/blob/main/CHANGELOG.md",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "Pygments",
+   "version": "2.21.0",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 51,
+   "releases_last_year": 2,
+   "n_releases": 69,
+   "repo_url": "https://github.com/pygments/pygments/issues",
+   "license_raw": "BSD-2-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-2-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "beautifulsoup4",
+   "version": "4.15.0",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 122,
+   "releases_last_year": 2,
+   "n_releases": 53,
+   "repo_url": "https://www.crummy.com/software/BeautifulSoup/bs4/download/",
+   "license_raw": "MIT License",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "cffi",
+   "version": "2.1.1",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 64,
+   "releases_last_year": 2,
+   "n_releases": 79,
+   "repo_url": "https://github.com/python-cffi/cffi/releases",
+   "license_raw": "MIT-0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT-0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "docutils",
+   "version": "0.23",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 133,
+   "releases_last_year": 4,
+   "n_releases": 55,
+   "repo_url": "https://docutils.sourceforge.io/HISTORY.html",
+   "license_raw": "",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause",
+    "GPL-3.0",
+    "Unlicense"
+   ],
+   "license_source": "classifier"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "minio",
+   "version": "7.2.20",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 314,
+   "releases_last_year": 2,
+   "n_releases": 112,
+   "repo_url": "https://github.com/minio/minio-py/releases",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "mongoengine",
+   "version": "0.29.3",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 211,
+   "releases_last_year": 2,
+   "n_releases": 78,
+   "repo_url": "https://github.com/MongoEngine/mongoengine/tarball/master",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "mysqlclient",
+   "version": "2.3.0",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 23,
+   "releases_last_year": 2,
+   "n_releases": 45,
+   "repo_url": "https://github.com/PyMySQL/mysqlclient",
+   "license_raw": "GPL-2.0-or-later",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "strong_copyleft",
+   "license_ids": [
+    "GPL-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pillow",
+   "version": "12.3.0",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 98,
+   "releases_last_year": 5,
+   "n_releases": 107,
+   "repo_url": "https://github.com/python-pillow/Pillow/releases",
+   "license_raw": "MIT-CMU",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT-CMU"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "psycopg2",
+   "version": "2.9.13",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 27,
+   "releases_last_year": 3,
+   "n_releases": 59,
+   "repo_url": "https://github.com/psycopg/psycopg2",
+   "license_raw": "LGPL with exceptions",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "weak_copyleft",
+   "license_ids": [
+    "LGPL-3.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "ruamel.yaml",
+   "version": "0.19.1",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 278,
+   "releases_last_year": 4,
+   "n_releases": 271,
+   "repo_url": "https://yaml.dev/doc/ruamel.yaml",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "typing-extensions",
+   "version": "4.16.0",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 97,
+   "releases_last_year": 3,
+   "n_releases": 52,
+   "repo_url": "https://github.com/python/typing_extensions/issues",
+   "license_raw": "PSF-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "PSF-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "ujson",
+   "version": "6.0.0",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 33,
+   "releases_last_year": 4,
+   "n_releases": 43,
+   "repo_url": "https://github.com/ultrajson/ultrajson",
+   "license_raw": "BSD-3-Clause AND TCL",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause",
+    "TCL"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "wheel",
+   "version": "0.48.0",
+   "health": 92.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 56,
+   "releases_last_year": 4,
+   "n_releases": 81,
+   "repo_url": "https://github.com/pypa/wheel/issues",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@types/node",
+   "version": "26.6.4",
+   "health": 93.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 5,
+   "releases_last_year": 155,
+   "n_releases": 2379,
+   "repo_url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "axios",
+   "version": "1.20.0",
+   "health": 93.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 42,
+   "releases_last_year": 24,
+   "n_releases": 145,
+   "repo_url": "git+https://github.com/axios/axios.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "core-js",
+   "version": "3.50.0",
+   "health": 93.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 63,
+   "releases_last_year": 6,
+   "n_releases": 289,
+   "repo_url": "git+https://github.com/zloirock/core-js.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:11+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "glob",
+   "version": "13.0.6",
+   "health": 93.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 230,
+   "releases_last_year": 10,
+   "n_releases": 168,
+   "repo_url": "git+ssh://git@github.com/isaacs/node-glob.git",
+   "license_raw": "BlueOak-1.0.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BlueOak-1.0.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "pg",
+   "version": "8.23.1",
+   "health": 93.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 7,
+   "releases_last_year": 10,
+   "n_releases": 250,
+   "repo_url": "git://github.com/brianc/node-postgres.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "sharp",
+   "version": "0.35.5",
+   "health": 93.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 10,
+   "releases_last_year": 26,
+   "n_releases": 194,
+   "repo_url": "git+https://github.com/lovell/sharp.git",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "ws",
+   "version": "8.22.0",
+   "health": 93.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 30
+   },
+   "flags": [
+    "single_maintainer"
+   ],
+   "reasons": [
+    "Only one registry maintainer (bus-factor risk)."
+   ],
+   "days_since_release": 11,
+   "releases_last_year": 17,
+   "n_releases": 189,
+   "repo_url": "git+https://github.com/websockets/ws.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "commander",
+   "version": "15.0.0",
+   "health": 93.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 131,
+   "releases_last_year": 4,
+   "n_releases": 124,
+   "repo_url": "git+https://github.com/tj/commander.js.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "socket.io",
+   "version": "4.8.4",
+   "health": 93.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 12,
+   "releases_last_year": 3,
+   "n_releases": 162,
+   "repo_url": "git+https://github.com/socketio/socket.io.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "Django",
+   "version": "6.1.2",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 1,
+   "releases_last_year": 36,
+   "n_releases": 436,
+   "repo_url": "https://github.com/django/django",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "SQLAlchemy",
+   "version": "2.1.4",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 0,
+   "releases_last_year": 21,
+   "n_releases": 332,
+   "repo_url": "https://github.com/sqlalchemy/sqlalchemy/discussions",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "Scrapy",
+   "version": "2.19.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 27,
+   "releases_last_year": 11,
+   "n_releases": 115,
+   "repo_url": "https://github.com/scrapy/scrapy",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "aiohttp",
+   "version": "3.14.4",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 2,
+   "releases_last_year": 10,
+   "n_releases": 306,
+   "repo_url": "https://github.com/aio-libs/aiohttp/actions?query=workflow%3ACI",
+   "license_raw": "Apache-2.0 AND MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0",
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "boto3",
+   "version": "1.43.109",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 0,
+   "releases_last_year": 243,
+   "n_releases": 2132,
+   "repo_url": "https://github.com/boto/boto3",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "botocore",
+   "version": "1.43.109",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 0,
+   "releases_last_year": 243,
+   "n_releases": 2530,
+   "repo_url": "https://github.com/boto/botocore",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "celery",
+   "version": "5.6.3",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 195,
+   "releases_last_year": 9,
+   "n_releases": 224,
+   "repo_url": "https://github.com/celery/celery",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "certifi",
+   "version": "2026.7.22",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 77,
+   "releases_last_year": 7,
+   "n_releases": 74,
+   "repo_url": "https://github.com/certifi/python-certifi",
+   "license_raw": "MPL-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:06+00:00",
+   "license_class": "weak_copyleft",
+   "license_ids": [
+    "MPL-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "chardet",
+   "version": "7.6.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 54,
+   "releases_last_year": 16,
+   "n_releases": 31,
+   "repo_url": "https://github.com/chardet/chardet/issues",
+   "license_raw": "0BSD",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "0BSD"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "charset-normalizer",
+   "version": "3.5.2",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 7,
+   "releases_last_year": 8,
+   "n_releases": 65,
+   "repo_url": "https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "click",
+   "version": "8.5.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 42,
+   "releases_last_year": 7,
+   "n_releases": 64,
+   "repo_url": "https://github.com/pallets/click/",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "cryptography",
+   "version": "50.0.2",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 7,
+   "releases_last_year": 12,
+   "n_releases": 157,
+   "repo_url": "https://github.com/pyca/cryptography",
+   "license_raw": "Apache-2.0 OR BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0",
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "fastapi",
+   "version": "0.142.3",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 0,
+   "releases_last_year": 92,
+   "n_releases": 321,
+   "repo_url": "https://github.com/fastapi/fastapi",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "gunicorn",
+   "version": "26.2.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 44,
+   "releases_last_year": 13,
+   "n_releases": 99,
+   "repo_url": "https://github.com/benoitc/gunicorn/issues",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "idna",
+   "version": "3.20",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 20,
+   "releases_last_year": 10,
+   "n_releases": 42,
+   "repo_url": "https://github.com/kjd/idna/blob/master/HISTORY.md",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:06+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "lxml",
+   "version": "6.1.3",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 35,
+   "releases_last_year": 10,
+   "n_releases": 130,
+   "repo_url": "https://github.com/lxml/lxml",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "matplotlib",
+   "version": "3.11.2",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 26,
+   "releases_last_year": 8,
+   "n_releases": 114,
+   "repo_url": "https://github.com/matplotlib/matplotlib/issues",
+   "license_raw": "License agreement for matplotlib versions 1.3.0 and later",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "PSF-2.0"
+   ],
+   "license_source": "classifier"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "numpy",
+   "version": "2.5.3",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 31,
+   "releases_last_year": 14,
+   "n_releases": 136,
+   "repo_url": "https://github.com/numpy/numpy",
+   "license_raw": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "0BSD",
+    "BSD-3-Clause",
+    "CC0-1.0",
+    "MIT",
+    "Zlib"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "packaging",
+   "version": "26.3",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 64,
+   "releases_last_year": 7,
+   "n_releases": 53,
+   "repo_url": "https://github.com/pypa/packaging",
+   "license_raw": "Apache-2.0 OR BSD-2-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0",
+    "BSD-2-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pandas",
+   "version": "3.0.6",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 19,
+   "releases_last_year": 10,
+   "n_releases": 118,
+   "repo_url": "https://github.com/pandas-dev/pandas",
+   "license_raw": "BSD 3-Clause License",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "classifier"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pip",
+   "version": "26.2.1",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 63,
+   "releases_last_year": 8,
+   "n_releases": 156,
+   "repo_url": "https://github.com/pypa/pip",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pydantic",
+   "version": "2.13.5",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 40,
+   "releases_last_year": 18,
+   "n_releases": 204,
+   "repo_url": "https://github.com/sponsors/samuelcolvin",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pytest",
+   "version": "9.1.1",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 110,
+   "releases_last_year": 6,
+   "n_releases": 191,
+   "repo_url": "https://github.com/pytest-dev/pytest",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "pytz",
+   "version": "2026.5",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 3,
+   "releases_last_year": 7,
+   "n_releases": 125,
+   "repo_url": "https://github.com/stub42/pytz/issues",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "redis",
+   "version": "8.1.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 69,
+   "releases_last_year": 16,
+   "n_releases": 169,
+   "repo_url": "https://github.com/redis/redis-py/releases",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "requests",
+   "version": "2.34.2",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 146,
+   "releases_last_year": 6,
+   "n_releases": 158,
+   "repo_url": "https://github.com/psf/requests",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:06+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "rich",
+   "version": "15.0.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 178,
+   "releases_last_year": 7,
+   "n_releases": 206,
+   "repo_url": "https://github.com/Textualize/rich",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "scipy",
+   "version": "1.18.1",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 46,
+   "releases_last_year": 9,
+   "n_releases": 101,
+   "repo_url": "https://github.com/scipy/scipy/releases",
+   "license_raw": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "setuptools",
+   "version": "84.0.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 60,
+   "releases_last_year": 9,
+   "n_releases": 614,
+   "repo_url": "https://github.com/pypa/setuptools",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "simplejson",
+   "version": "4.2.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 4,
+   "releases_last_year": 6,
+   "n_releases": 113,
+   "repo_url": "https://github.com/simplejson/simplejson",
+   "license_raw": "MIT OR AFL-2.1",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "AFL-2.1",
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "tqdm",
+   "version": "4.70.1",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 26,
+   "releases_last_year": 11,
+   "n_releases": 150,
+   "repo_url": "https://github.com/tqdm/tqdm",
+   "license_raw": "MPL-2.0 AND MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "weak_copyleft",
+   "license_ids": [
+    "MIT",
+    "MPL-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "urllib3",
+   "version": "2.8.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 22,
+   "releases_last_year": 6,
+   "n_releases": 101,
+   "repo_url": "https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:06+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "pypi",
+   "name": "uvicorn",
+   "version": "0.54.0",
+   "health": 96.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 60
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 12,
+   "releases_last_year": 23,
+   "n_releases": 203,
+   "repo_url": "https://github.com/sponsors/Kludex",
+   "license_raw": "BSD-3-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:07+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-3-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "jquery",
+   "version": "4.0.0",
+   "health": 96.2,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 85,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 262,
+   "releases_last_year": 2,
+   "n_releases": 64,
+   "repo_url": "git+https://github.com/jquery/jquery.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "eslint",
+   "version": "10.12.0",
+   "health": 97.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 5,
+   "releases_last_year": 33,
+   "n_releases": 431,
+   "repo_url": "git+https://github.com/eslint/eslint.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "mocha",
+   "version": "12.0.3",
+   "health": 97.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 6,
+   "releases_last_year": 32,
+   "n_releases": 251,
+   "repo_url": "git+https://github.com/mochajs/mocha.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:11+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "mongodb",
+   "version": "7.7.0",
+   "health": 97.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 9,
+   "releases_last_year": 198,
+   "n_releases": 925,
+   "repo_url": "git+ssh://git@github.com/mongodb/node-mongodb-native.git",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "react",
+   "version": "19.3.0",
+   "health": 97.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 28,
+   "releases_last_year": 423,
+   "n_releases": 2965,
+   "repo_url": "git+https://github.com/react/react.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "react-dom",
+   "version": "19.3.0",
+   "health": 97.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 28,
+   "releases_last_year": 423,
+   "n_releases": 2920,
+   "repo_url": "git+https://github.com/react/react.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "uuid",
+   "version": "14.0.2",
+   "health": 97.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 50,
+   "releases_last_year": 7,
+   "n_releases": 55,
+   "repo_url": "git+https://github.com/uuidjs/uuid.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "vue",
+   "version": "3.5.43",
+   "health": 97.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 70
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 20,
+   "releases_last_year": 53,
+   "n_releases": 595,
+   "repo_url": "git+https://github.com/vuejs/core.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "@babel/core",
+   "version": "8.0.7",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 0,
+   "releases_last_year": 18,
+   "n_releases": 232,
+   "repo_url": "https://github.com/babel/babel.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "body-parser",
+   "version": "2.3.0",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 114,
+   "releases_last_year": 7,
+   "n_releases": 85,
+   "repo_url": "git+https://github.com/expressjs/body-parser.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "dotenv",
+   "version": "18.0.6",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 1,
+   "releases_last_year": 13,
+   "n_releases": 111,
+   "repo_url": "git://github.com/motdotla/dotenv.git",
+   "license_raw": "BSD-2-Clause",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "BSD-2-Clause"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "express",
+   "version": "5.2.1",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 310,
+   "releases_last_year": 6,
+   "n_releases": 289,
+   "repo_url": "git+https://github.com/expressjs/express.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "highcharts",
+   "version": "13.1.1",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [
+    "license_unknown"
+   ],
+   "reasons": [],
+   "days_since_release": 17,
+   "releases_last_year": 13,
+   "n_releases": 126,
+   "repo_url": "git+https://github.com/highcharts/highcharts-dist.git",
+   "license_raw": "https://www.highcharts.com/license",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "unknown",
+   "license_ids": [],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "jest",
+   "version": "30.5.2",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 19,
+   "releases_last_year": 7,
+   "n_releases": 383,
+   "repo_url": "git+https://github.com/jestjs/jest.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:09+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "mongoose",
+   "version": "9.11.1",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 0,
+   "releases_last_year": 76,
+   "n_releases": 1023,
+   "repo_url": "git://github.com/Automattic/mongoose.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "prettier",
+   "version": "3.9.9",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 14,
+   "releases_last_year": 22,
+   "n_releases": 198,
+   "repo_url": "git+https://github.com/prettier/prettier.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "redis",
+   "version": "6.3.0",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 7,
+   "releases_last_year": 13,
+   "n_releases": 188,
+   "repo_url": "git://github.com/redis/node-redis.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:10+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "semver",
+   "version": "7.8.5",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 110,
+   "releases_last_year": 7,
+   "n_releases": 119,
+   "repo_url": "git+https://github.com/npm/node-semver.git",
+   "license_raw": "ISC",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "ISC"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "typescript",
+   "version": "7.0.2",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 91,
+   "releases_last_year": 260,
+   "n_releases": 3846,
+   "repo_url": "git+https://github.com/microsoft/TypeScript.git",
+   "license_raw": "Apache-2.0",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "Apache-2.0"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "webpack",
+   "version": "5.111.1",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 19,
+   "releases_last_year": 28,
+   "n_releases": 889,
+   "repo_url": "git+https://github.com/webpack/webpack.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  },
+  {
+   "ecosystem": "npm",
+   "name": "yargs",
+   "version": "18.2.0",
+   "health": 100.0,
+   "abandonment_risk": "low",
+   "components": {
+    "recency": 100,
+    "cadence": 100,
+    "maturity": 100,
+    "provenance": 100,
+    "bus_factor": 100
+   },
+   "flags": [],
+   "reasons": [],
+   "days_since_release": 16,
+   "releases_last_year": 6,
+   "n_releases": 267,
+   "repo_url": "git+https://github.com/yargs/yargs.git",
+   "license_raw": "MIT",
+   "method": "2026.10-1",
+   "fetched_at": "2026-10-07T20:56:08+00:00",
+   "license_class": "permissive",
+   "license_ids": [
+    "MIT"
+   ],
+   "license_source": "metadata"
+  }
+ ]
+}

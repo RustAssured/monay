@@ -1,0 +1,29 @@
+{
+ "ecosystem": "pypi",
+ "name": "aiohttp",
+ "version": "3.14.4",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 2,
+ "releases_last_year": 10,
+ "n_releases": 306,
+ "repo_url": "https://github.com/aio-libs/aiohttp/actions?query=workflow%3ACI",
+ "license_raw": "Apache-2.0 AND MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "Apache-2.0",
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

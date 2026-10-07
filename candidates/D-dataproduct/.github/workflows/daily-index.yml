@@ -1,0 +1,35 @@
+# Operator: copy to the ROOT .github/workflows/ of a PUBLIC repo containing this directory's contents.
+# Runs daily on free GitHub-hosted runners (public repo), rebuilds the index and deploys to GitHub Pages.
+name: daily-index
+on:
+  schedule: [{cron: "17 5 * * *"}]   # off-peak minute; scheduled runs can be delayed
+  workflow_dispatch: {}
+permissions: {contents: write, pages: write, id-token: write}
+concurrency: {group: daily-index, cancel-in-progress: false}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install pytest numpy
+      - run: ./run_tests.sh
+      - name: Restore previous site (for change detection)
+        run: git fetch origin gh-data || true; git checkout origin/gh-data -- site data/cache 2>/dev/null || true
+      - name: Build index (live registries, GitHub enrichment)
+        env: {GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+        run: python -m depscore build --seeds seeds/seeds.txt --cache data/cache --out site --github
+      - name: Persist data (also keeps scheduled workflow from auto-disabling after 60 days of inactivity)
+        run: |
+          git config user.name depscore-bot; git config user.email depscore-bot@users.noreply.github.com
+          git switch --orphan gh-data-tmp && git add -f site data/cache && git commit -qm "data $(date -u +%F)" && git push -f origin HEAD:gh-data
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: site}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: {name: github-pages}
+    steps:
+      - uses: actions/deploy-pages@v4

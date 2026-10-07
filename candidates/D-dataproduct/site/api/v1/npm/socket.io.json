@@ -1,0 +1,28 @@
+{
+ "ecosystem": "npm",
+ "name": "socket.io",
+ "version": "4.8.4",
+ "health": 93.2,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 85,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 70
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 12,
+ "releases_last_year": 3,
+ "n_releases": 162,
+ "repo_url": "git+https://github.com/socketio/socket.io.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:10+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

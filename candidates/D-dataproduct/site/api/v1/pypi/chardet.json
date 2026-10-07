@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "chardet",
+ "version": "7.6.0",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 54,
+ "releases_last_year": 16,
+ "n_releases": 31,
+ "repo_url": "https://github.com/chardet/chardet/issues",
+ "license_raw": "0BSD",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "0BSD"
+ ],
+ "license_source": "metadata"
+}

@@ -1,0 +1,188 @@
+{
+"info": {
+"name": "nose",
+"version": "1.3.7",
+"license": "GNU LGPL",
+"license_expression": null,
+"classifiers": [
+"Development Status :: 5 - Production/Stable",
+"Intended Audience :: Developers",
+"License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+"Natural Language :: English",
+"Operating System :: OS Independent",
+"Programming Language :: Python",
+"Programming Language :: Python :: 3",
+"Topic :: Software Development :: Testing"
+],
+"project_urls": {
+"Homepage": "http://readthedocs.org/docs/nose/"
+},
+"home_page": "http://readthedocs.org/docs/nose/",
+"summary": "nose extends unittest to make testing easier",
+"yanked": false
+},
+"last_serial": 1736893,
+"ownership": {
+"organization": null,
+"roles": [
+{
+"role": "Owner",
+"user": "jpellerin"
+},
+{
+"role": "Owner",
+"user": "jszakmeister"
+},
+{
+"role": "Owner",
+"user": "kumar303"
+}
+]
+},
+"releases": {
+"1.0.0": [
+{
+"upload_time": "2010-12-14T23:20:57",
+"upload_time_iso_8601": "2010-12-14T23:20:57.252612Z",
+"yanked": false
+},
+{
+"upload_time": "2010-12-14T23:20:25",
+"upload_time_iso_8601": "2010-12-14T23:20:25.766733Z",
+"yanked": false
+}
+],
+"1.1.0": [
+{
+"upload_time": "2011-07-26T17:15:21",
+"upload_time_iso_8601": "2011-07-26T17:15:21.624683Z",
+"yanked": false
+}
+],
+"1.1.1": [
+{
+"upload_time": "2011-07-27T00:05:53",
+"upload_time_iso_8601": "2011-07-27T00:05:53.939196Z",
+"yanked": false
+}
+],
+"1.1.2": [
+{
+"upload_time": "2011-07-31T01:55:19",
+"upload_time_iso_8601": "2011-07-31T01:55:19.367267Z",
+"yanked": false
+}
+],
+"1.2.0": [
+{
+"upload_time": "2012-09-09T13:58:53",
+"upload_time_iso_8601": "2012-09-09T13:58:53.421650Z",
+"yanked": false
+}
+],
+"1.2.1": [
+{
+"upload_time": "2012-09-12T20:01:06",
+"upload_time_iso_8601": "2012-09-12T20:01:06.806525Z",
+"yanked": false
+}
+],
+"1.3.0": [
+{
+"upload_time": "2013-04-08T13:15:00",
+"upload_time_iso_8601": "2013-04-08T13:15:00.819736Z",
+"yanked": false
+}
+],
+"1.3.1": [
+{
+"upload_time": "2014-03-10T21:44:33",
+"upload_time_iso_8601": "2014-03-10T21:44:33.426956Z",
+"yanked": false
+}
+],
+"1.3.2": [
+{
+"upload_time": "2014-05-03T14:19:00",
+"upload_time_iso_8601": "2014-05-03T14:19:00.423841Z",
+"yanked": false
+}
+],
+"1.3.3": [
+{
+"upload_time": "2014-05-06T09:54:10",
+"upload_time_iso_8601": "2014-05-06T09:54:10.035755Z",
+"yanked": false
+}
+],
+"1.3.4": [
+{
+"upload_time": "2015-01-08T09:36:28",
+"upload_time_iso_8601": "2015-01-08T09:36:28.975856Z",
+"yanked": false
+},
+{
+"upload_time": "2015-01-08T09:47:40",
+"upload_time_iso_8601": "2015-01-08T09:47:40.044047Z",
+"yanked": false
+},
+{
+"upload_time": "2014-08-24T11:10:36",
+"upload_time_iso_8601": "2014-08-24T11:10:36.289824Z",
+"yanked": false
+}
+],
+"1.3.5": [],
+"1.3.6": [
+{
+"upload_time": "2015-04-04T11:46:38",
+"upload_time_iso_8601": "2015-04-04T11:46:38.914556Z",
+"yanked": false
+},
+{
+"upload_time": "2015-04-04T11:47:56",
+"upload_time_iso_8601": "2015-04-04T11:47:56.362849Z",
+"yanked": false
+},
+{
+"upload_time": "2015-04-04T11:46:42",
+"upload_time_iso_8601": "2015-04-04T11:46:42.262930Z",
+"yanked": false
+}
+],
+"1.3.7": [
+{
+"upload_time": "2015-06-02T09:12:36",
+"upload_time_iso_8601": "2015-06-02T09:12:36.801799Z",
+"yanked": false
+},
+{
+"upload_time": "2015-06-02T09:12:40",
+"upload_time_iso_8601": "2015-06-02T09:12:40.570975Z",
+"yanked": false
+},
+{
+"upload_time": "2015-06-02T09:12:32",
+"upload_time_iso_8601": "2015-06-02T09:12:32.961855Z",
+"yanked": false
+}
+]
+},
+"urls": [
+{
+"upload_time": "2015-06-02T09:12:36",
+"upload_time_iso_8601": "2015-06-02T09:12:36.801799Z",
+"yanked": false
+},
+{
+"upload_time": "2015-06-02T09:12:40",
+"upload_time_iso_8601": "2015-06-02T09:12:40.570975Z",
+"yanked": false
+},
+{
+"upload_time": "2015-06-02T09:12:32",
+"upload_time_iso_8601": "2015-06-02T09:12:32.961855Z",
+"yanked": false
+}
+]
+}

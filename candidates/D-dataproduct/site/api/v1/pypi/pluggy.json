@@ -1,0 +1,33 @@
+{
+ "ecosystem": "pypi",
+ "name": "pluggy",
+ "version": "1.6.0",
+ "health": 54.0,
+ "abandonment_risk": "high",
+ "components": {
+  "recency": 70,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 0,
+  "bus_factor": 60
+ },
+ "flags": [
+  "no_source_link"
+ ],
+ "reasons": [
+  "No releases in the past 12 months.",
+  "No source repository link in registry metadata."
+ ],
+ "days_since_release": 510,
+ "releases_last_year": 0,
+ "n_releases": 23,
+ "repo_url": null,
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

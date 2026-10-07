@@ -1,0 +1,32 @@
+{
+ "ecosystem": "npm",
+ "name": "core-js",
+ "version": "3.50.0",
+ "health": 93.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 30
+ },
+ "flags": [
+  "single_maintainer"
+ ],
+ "reasons": [
+  "Only one registry maintainer (bus-factor risk)."
+ ],
+ "days_since_release": 63,
+ "releases_last_year": 6,
+ "n_releases": 289,
+ "repo_url": "git+https://github.com/zloirock/core-js.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:11+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

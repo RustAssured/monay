@@ -1,0 +1,28 @@
+{
+ "ecosystem": "npm",
+ "name": "mongodb",
+ "version": "7.7.0",
+ "health": 97.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 70
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 9,
+ "releases_last_year": 198,
+ "n_releases": 925,
+ "repo_url": "git+ssh://git@github.com/mongodb/node-mongodb-native.git",
+ "license_raw": "Apache-2.0",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:10+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "Apache-2.0"
+ ],
+ "license_source": "metadata"
+}

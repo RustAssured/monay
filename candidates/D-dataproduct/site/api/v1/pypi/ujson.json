@@ -1,0 +1,29 @@
+{
+ "ecosystem": "pypi",
+ "name": "ujson",
+ "version": "6.0.0",
+ "health": 92.2,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 85,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 33,
+ "releases_last_year": 4,
+ "n_releases": 43,
+ "repo_url": "https://github.com/ultrajson/ultrajson",
+ "license_raw": "BSD-3-Clause AND TCL",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "BSD-3-Clause",
+  "TCL"
+ ],
+ "license_source": "metadata"
+}

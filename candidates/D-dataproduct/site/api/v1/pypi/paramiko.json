@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "paramiko",
+ "version": "5.0.0",
+ "health": 86.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 60,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 151,
+ "releases_last_year": 1,
+ "n_releases": 151,
+ "repo_url": "https://github.com/paramiko/paramiko/issues",
+ "license_raw": "LGPL-2.1",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "weak_copyleft",
+ "license_ids": [
+  "LGPL-2.1"
+ ],
+ "license_source": "metadata"
+}

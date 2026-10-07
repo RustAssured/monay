@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "minio",
+ "version": "7.2.20",
+ "health": 92.2,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 85,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 314,
+ "releases_last_year": 2,
+ "n_releases": 112,
+ "repo_url": "https://github.com/minio/minio-py/releases",
+ "license_raw": "Apache-2.0",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "Apache-2.0"
+ ],
+ "license_source": "metadata"
+}

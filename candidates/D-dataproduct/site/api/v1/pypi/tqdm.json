@@ -1,0 +1,29 @@
+{
+ "ecosystem": "pypi",
+ "name": "tqdm",
+ "version": "4.70.1",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 26,
+ "releases_last_year": 11,
+ "n_releases": 150,
+ "repo_url": "https://github.com/tqdm/tqdm",
+ "license_raw": "MPL-2.0 AND MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "weak_copyleft",
+ "license_ids": [
+  "MIT",
+  "MPL-2.0"
+ ],
+ "license_source": "metadata"
+}

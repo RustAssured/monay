@@ -1,0 +1,30 @@
+{
+ "ecosystem": "npm",
+ "name": "tslib",
+ "version": "2.8.1",
+ "health": 68.0,
+ "abandonment_risk": "medium",
+ "components": {
+  "recency": 70,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 100
+ },
+ "flags": [],
+ "reasons": [
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 705,
+ "releases_last_year": 0,
+ "n_releases": 46,
+ "repo_url": "git+https://github.com/Microsoft/tslib.git",
+ "license_raw": "0BSD",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:09+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "0BSD"
+ ],
+ "license_source": "metadata"
+}

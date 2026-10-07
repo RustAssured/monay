@@ -1,0 +1,31 @@
+{
+ "deprecated": "Use uuid module instead",
+ "description": "Rigorous implementation of RFC4122 (v1 and v4) UUIDs.",
+ "dev_status": null,
+ "ecosystem": "npm",
+ "fetched_at": "2026-10-07T20:52:01+00:00",
+ "latest_release": "2017-03-22T00:30:38+00:00",
+ "latest_version": "1.4.8",
+ "latest_yanked": false,
+ "license_classifiers": [],
+ "license_raw": "",
+ "maintainers": 2,
+ "name": "node-uuid",
+ "release_dates": [
+  "2012-02-06T18:37:58+00:00",
+  "2012-02-06T18:43:49+00:00",
+  "2012-02-06T18:46:09+00:00",
+  "2012-02-06T18:49:48+00:00",
+  "2012-02-06T18:54:52+00:00",
+  "2012-02-06T18:56:53+00:00",
+  "2012-02-06T19:00:02+00:00",
+  "2012-10-18T13:51:34+00:00",
+  "2013-08-17T12:51:06+00:00",
+  "2014-12-03T23:17:39+00:00",
+  "2015-03-05T19:31:39+00:00",
+  "2015-11-12T22:03:38+00:00",
+  "2015-11-13T20:31:28+00:00",
+  "2017-03-22T00:30:38+00:00"
+ ],
+ "repo_url": "git+https://github.com/broofa/node-uuid.git"
+}

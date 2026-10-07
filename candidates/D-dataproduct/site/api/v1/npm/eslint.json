@@ -1,0 +1,28 @@
+{
+ "ecosystem": "npm",
+ "name": "eslint",
+ "version": "10.12.0",
+ "health": 97.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 70
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 5,
+ "releases_last_year": 33,
+ "n_releases": 431,
+ "repo_url": "git+https://github.com/eslint/eslint.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:10+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

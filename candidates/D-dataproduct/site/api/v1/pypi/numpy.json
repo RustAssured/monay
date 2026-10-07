@@ -1,0 +1,32 @@
+{
+ "ecosystem": "pypi",
+ "name": "numpy",
+ "version": "2.5.3",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 31,
+ "releases_last_year": 14,
+ "n_releases": 136,
+ "repo_url": "https://github.com/numpy/numpy",
+ "license_raw": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "0BSD",
+  "BSD-3-Clause",
+  "CC0-1.0",
+  "MIT",
+  "Zlib"
+ ],
+ "license_source": "metadata"
+}

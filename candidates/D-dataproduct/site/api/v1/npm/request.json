@@ -1,0 +1,34 @@
+{
+ "ecosystem": "npm",
+ "name": "request",
+ "version": "2.88.2",
+ "health": 10,
+ "abandonment_risk": "critical",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 100
+ },
+ "flags": [
+  "deprecated"
+ ],
+ "reasons": [
+  "Last release 2430 days ago.",
+  "No releases in the past 12 months.",
+  "Marked deprecated on registry: request has been deprecated, see https://github.com/request/request/issues/3142"
+ ],
+ "days_since_release": 2430,
+ "releases_last_year": 0,
+ "n_releases": 126,
+ "repo_url": "git+https://github.com/request/request.git",
+ "license_raw": "Apache-2.0",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "Apache-2.0"
+ ],
+ "license_source": "metadata"
+}

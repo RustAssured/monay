@@ -1,0 +1,125 @@
+ecosystem,name,version,health,abandonment_risk,license_class,license_raw,days_since_release,releases_last_year,flags
+npm,coffee-script,1.12.7,10,critical,permissive,MIT,3369,0,deprecated
+npm,left-pad,1.3.0,10,critical,permissive,WTFPL,3103,0,deprecated
+npm,node-sass,9.0.0,10,critical,permissive,MIT,1236,0,deprecated
+npm,node-uuid,1.4.8,10,critical,unknown,,3486,0,deprecated;license_unknown
+npm,querystring,0.2.1,10,critical,permissive,MIT,2060,0,deprecated
+npm,request,2.88.2,10,critical,permissive,Apache-2.0,2430,0,deprecated
+npm,tslint,6.1.3,10,critical,permissive,Apache-2.0,2259,0,single_maintainer;deprecated
+npm,inherits,2.0.4,36.0,high,permissive,ISC,2667,0,single_maintainer
+npm,bluebird,3.7.2,39.0,high,permissive,MIT,2504,0,single_maintainer
+npm,colors,1.4.0,39.0,high,permissive,MIT,2571,0,single_maintainer
+npm,faker,6.6.6,39.0,high,permissive,MIT,1736,0,single_maintainer
+pypi,pycrypto,2.6.1,39.0,high,permissive,Public domain,4492,0,
+pypi,fuzzywuzzy,0.18.0,42.0,high,strong_copyleft,GPLv2,2427,0,
+pypi,nose,1.3.7,42.0,high,weak_copyleft,GNU LGPL,4145,0,
+npm,bower,1.8.14,43.0,high,permissive,MIT,1668,0,
+npm,mysql,2.18.1,46.0,high,permissive,MIT,2449,0,
+npm,prop-types,15.8.1,46.0,high,permissive,MIT,1736,0,
+npm,mkdirp,3.0.1,49.0,high,permissive,MIT,1262,0,single_maintainer
+pypi,PyQt5,5.15.11,52.0,high,strong_copyleft,GPL v3,810,0,
+pypi,colorama,0.4.6,52.0,high,permissive,,1443,0,
+pypi,python-dateutil,2.9.0.post0,52.0,high,permissive,Dual License,950,0,
+npm,classnames,2.5.1,53.0,high,permissive,MIT,1013,0,
+npm,ghostscript4js,3.2.3,53.0,high,permissive,Apache-2.0,835,0,
+pypi,pluggy,1.6.0,54.0,high,permissive,MIT,510,0,no_source_link
+npm,async,3.2.6,56.0,medium,permissive,MIT,778,0,
+npm,minimist,1.2.8,56.0,medium,permissive,MIT,1335,0,
+pypi,Jinja2,3.1.6,64.0,medium,permissive,,581,0,
+pypi,PyYAML,6.0.3,64.0,medium,permissive,MIT,376,0,
+pypi,ghostscript,0.8.1,64.0,medium,strong_copyleft,GPL-3.0-or-later,497,0,
+pypi,mock,5.2.0,64.0,medium,permissive,,583,0,
+pypi,six,1.17.0,64.0,medium,permissive,MIT,672,0,
+npm,debug,4.4.3,65.0,medium,permissive,MIT,389,0,
+npm,gulp,5.0.1,65.0,medium,permissive,MIT,492,0,
+npm,tslib,2.8.1,68.0,medium,permissive,0BSD,705,0,
+pypi,httpx,0.28.1,80.2,low,permissive,BSD-3-Clause,670,3,
+npm,jsonwebtoken,9.0.3,83.0,low,permissive,MIT,307,1,single_maintainer
+pypi,Flask,3.1.3,86.0,low,permissive,BSD-3-Clause,230,1,
+pypi,MarkupSafe,3.0.4,86.0,low,permissive,BSD-3-Clause,4,1,
+pypi,attrs,26.1.0,86.0,low,permissive,MIT,202,1,
+pypi,paramiko,5.0.0,86.0,low,weak_copyleft,LGPL-2.1,151,1,
+pypi,pycparser,3.0,86.0,low,permissive,BSD-3-Clause,259,1,
+npm,underscore,1.13.8,87.0,low,permissive,MIT,230,1,
+npm,chalk,6.0.1,89.2,low,permissive,MIT,10,2,single_maintainer
+npm,lodash,4.18.1,89.2,low,permissive,MIT,188,3,single_maintainer
+npm,rimraf,6.1.3,89.2,low,permissive,BlueOak-1.0.0,233,4,single_maintainer
+npm,cors,2.8.6,90.0,low,permissive,MIT,258,1,
+npm,moment,2.31.0,90.0,low,permissive,MIT,22,1,
+pypi,PyMySQL,1.2.3,92.2,low,permissive,MIT,20,5,
+pypi,Pygments,2.21.0,92.2,low,permissive,BSD-2-Clause,51,2,
+pypi,beautifulsoup4,4.15.0,92.2,low,permissive,MIT License,122,2,
+pypi,cffi,2.1.1,92.2,low,permissive,MIT-0,64,2,
+pypi,docutils,0.23,92.2,low,permissive,,133,4,
+pypi,minio,7.2.20,92.2,low,permissive,Apache-2.0,314,2,
+pypi,mongoengine,0.29.3,92.2,low,permissive,MIT,211,2,
+pypi,mysqlclient,2.3.0,92.2,low,strong_copyleft,GPL-2.0-or-later,23,2,
+pypi,pillow,12.3.0,92.2,low,permissive,MIT-CMU,98,5,
+pypi,psycopg2,2.9.13,92.2,low,weak_copyleft,LGPL with exceptions,27,3,
+pypi,ruamel.yaml,0.19.1,92.2,low,permissive,MIT,278,4,
+pypi,typing-extensions,4.16.0,92.2,low,permissive,PSF-2.0,97,3,
+pypi,ujson,6.0.0,92.2,low,permissive,BSD-3-Clause AND TCL,33,4,
+pypi,wheel,0.48.0,92.2,low,permissive,MIT,56,4,
+npm,@types/node,26.6.4,93.0,low,permissive,MIT,5,155,single_maintainer
+npm,axios,1.20.0,93.0,low,permissive,MIT,42,24,single_maintainer
+npm,core-js,3.50.0,93.0,low,permissive,MIT,63,6,single_maintainer
+npm,glob,13.0.6,93.0,low,permissive,BlueOak-1.0.0,230,10,single_maintainer
+npm,pg,8.23.1,93.0,low,permissive,MIT,7,10,single_maintainer
+npm,sharp,0.35.5,93.0,low,permissive,Apache-2.0,10,26,single_maintainer
+npm,ws,8.22.0,93.0,low,permissive,MIT,11,17,single_maintainer
+npm,commander,15.0.0,93.2,low,permissive,MIT,131,4,
+npm,socket.io,4.8.4,93.2,low,permissive,MIT,12,3,
+pypi,Django,6.1.2,96.0,low,permissive,BSD-3-Clause,1,36,
+pypi,SQLAlchemy,2.1.4,96.0,low,permissive,MIT,0,21,
+pypi,Scrapy,2.19.0,96.0,low,permissive,BSD-3-Clause,27,11,
+pypi,aiohttp,3.14.4,96.0,low,permissive,Apache-2.0 AND MIT,2,10,
+pypi,boto3,1.43.109,96.0,low,permissive,Apache-2.0,0,243,
+pypi,botocore,1.43.109,96.0,low,permissive,Apache-2.0,0,243,
+pypi,celery,5.6.3,96.0,low,permissive,BSD-3-Clause,195,9,
+pypi,certifi,2026.7.22,96.0,low,weak_copyleft,MPL-2.0,77,7,
+pypi,chardet,7.6.0,96.0,low,permissive,0BSD,54,16,
+pypi,charset-normalizer,3.5.2,96.0,low,permissive,MIT,7,8,
+pypi,click,8.5.0,96.0,low,permissive,BSD-3-Clause,42,7,
+pypi,cryptography,50.0.2,96.0,low,permissive,Apache-2.0 OR BSD-3-Clause,7,12,
+pypi,fastapi,0.142.3,96.0,low,permissive,MIT,0,92,
+pypi,gunicorn,26.2.0,96.0,low,permissive,MIT,44,13,
+pypi,idna,3.20,96.0,low,permissive,BSD-3-Clause,20,10,
+pypi,lxml,6.1.3,96.0,low,permissive,BSD-3-Clause,35,10,
+pypi,matplotlib,3.11.2,96.0,low,permissive,License agreement for matplotlib versions 1.3.0 and later,26,8,
+pypi,numpy,2.5.3,96.0,low,permissive,BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0,31,14,
+pypi,packaging,26.3,96.0,low,permissive,Apache-2.0 OR BSD-2-Clause,64,7,
+pypi,pandas,3.0.6,96.0,low,permissive,BSD 3-Clause License,19,10,
+pypi,pip,26.2.1,96.0,low,permissive,MIT,63,8,
+pypi,pydantic,2.13.5,96.0,low,permissive,MIT,40,18,
+pypi,pytest,9.1.1,96.0,low,permissive,MIT,110,6,
+pypi,pytz,2026.5,96.0,low,permissive,MIT,3,7,
+pypi,redis,8.1.0,96.0,low,permissive,MIT,69,16,
+pypi,requests,2.34.2,96.0,low,permissive,Apache-2.0,146,6,
+pypi,rich,15.0.0,96.0,low,permissive,MIT,178,7,
+pypi,scipy,1.18.1,96.0,low,permissive,"Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",46,9,
+pypi,setuptools,84.0.0,96.0,low,permissive,MIT,60,9,
+pypi,simplejson,4.2.0,96.0,low,permissive,MIT OR AFL-2.1,4,6,
+pypi,tqdm,4.70.1,96.0,low,weak_copyleft,MPL-2.0 AND MIT,26,11,
+pypi,urllib3,2.8.0,96.0,low,permissive,MIT,22,6,
+pypi,uvicorn,0.54.0,96.0,low,permissive,BSD-3-Clause,12,23,
+npm,jquery,4.0.0,96.2,low,permissive,MIT,262,2,
+npm,eslint,10.12.0,97.0,low,permissive,MIT,5,33,
+npm,mocha,12.0.3,97.0,low,permissive,MIT,6,32,
+npm,mongodb,7.7.0,97.0,low,permissive,Apache-2.0,9,198,
+npm,react,19.3.0,97.0,low,permissive,MIT,28,423,
+npm,react-dom,19.3.0,97.0,low,permissive,MIT,28,423,
+npm,uuid,14.0.2,97.0,low,permissive,MIT,50,7,
+npm,vue,3.5.43,97.0,low,permissive,MIT,20,53,
+npm,@babel/core,8.0.7,100.0,low,permissive,MIT,0,18,
+npm,body-parser,2.3.0,100.0,low,permissive,MIT,114,7,
+npm,dotenv,18.0.6,100.0,low,permissive,BSD-2-Clause,1,13,
+npm,express,5.2.1,100.0,low,permissive,MIT,310,6,
+npm,highcharts,13.1.1,100.0,low,unknown,https://www.highcharts.com/license,17,13,license_unknown
+npm,jest,30.5.2,100.0,low,permissive,MIT,19,7,
+npm,mongoose,9.11.1,100.0,low,permissive,MIT,0,76,
+npm,prettier,3.9.9,100.0,low,permissive,MIT,14,22,
+npm,redis,6.3.0,100.0,low,permissive,MIT,7,13,
+npm,semver,7.8.5,100.0,low,permissive,ISC,110,7,
+npm,typescript,7.0.2,100.0,low,permissive,Apache-2.0,91,260,
+npm,webpack,5.111.1,100.0,low,permissive,MIT,19,28,
+npm,yargs,18.2.0,100.0,low,permissive,MIT,16,6,

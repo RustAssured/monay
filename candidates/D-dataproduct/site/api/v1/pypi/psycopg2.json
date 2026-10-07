@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "psycopg2",
+ "version": "2.9.13",
+ "health": 92.2,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 85,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 27,
+ "releases_last_year": 3,
+ "n_releases": 59,
+ "repo_url": "https://github.com/psycopg/psycopg2",
+ "license_raw": "LGPL with exceptions",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "weak_copyleft",
+ "license_ids": [
+  "LGPL-3.0"
+ ],
+ "license_source": "metadata"
+}

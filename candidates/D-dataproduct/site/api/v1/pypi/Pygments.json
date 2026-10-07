@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "Pygments",
+ "version": "2.21.0",
+ "health": 92.2,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 85,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 51,
+ "releases_last_year": 2,
+ "n_releases": 69,
+ "repo_url": "https://github.com/pygments/pygments/issues",
+ "license_raw": "BSD-2-Clause",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "BSD-2-Clause"
+ ],
+ "license_source": "metadata"
+}

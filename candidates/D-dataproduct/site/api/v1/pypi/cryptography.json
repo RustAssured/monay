@@ -1,0 +1,29 @@
+{
+ "ecosystem": "pypi",
+ "name": "cryptography",
+ "version": "50.0.2",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 7,
+ "releases_last_year": 12,
+ "n_releases": 157,
+ "repo_url": "https://github.com/pyca/cryptography",
+ "license_raw": "Apache-2.0 OR BSD-3-Clause",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "Apache-2.0",
+  "BSD-3-Clause"
+ ],
+ "license_source": "metadata"
+}

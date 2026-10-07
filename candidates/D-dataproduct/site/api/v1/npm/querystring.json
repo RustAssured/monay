@@ -1,0 +1,34 @@
+{
+ "ecosystem": "npm",
+ "name": "querystring",
+ "version": "0.2.1",
+ "health": 10,
+ "abandonment_risk": "critical",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 80,
+  "provenance": 100,
+  "bus_factor": 70
+ },
+ "flags": [
+  "deprecated"
+ ],
+ "reasons": [
+  "Last release 2060 days ago.",
+  "No releases in the past 12 months.",
+  "Marked deprecated on registry: The querystring API is considered Legacy. new code should use the URLSearchParams API instead."
+ ],
+ "days_since_release": 2060,
+ "releases_last_year": 0,
+ "n_releases": 5,
+ "repo_url": "git://github.com/Gozala/querystring.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:09+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

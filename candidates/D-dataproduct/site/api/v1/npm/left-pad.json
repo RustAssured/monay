@@ -1,0 +1,34 @@
+{
+ "ecosystem": "npm",
+ "name": "left-pad",
+ "version": "1.3.0",
+ "health": 10,
+ "abandonment_risk": "critical",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 70
+ },
+ "flags": [
+  "deprecated"
+ ],
+ "reasons": [
+  "Last release 3103 days ago.",
+  "No releases in the past 12 months.",
+  "Marked deprecated on registry: use String.prototype.padStart()"
+ ],
+ "days_since_release": 3103,
+ "releases_last_year": 0,
+ "n_releases": 15,
+ "repo_url": "git+ssh://git@github.com/stevemao/left-pad.git",
+ "license_raw": "WTFPL",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "WTFPL"
+ ],
+ "license_source": "metadata"
+}

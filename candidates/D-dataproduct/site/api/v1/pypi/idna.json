@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "idna",
+ "version": "3.20",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 20,
+ "releases_last_year": 10,
+ "n_releases": 42,
+ "repo_url": "https://github.com/kjd/idna/blob/master/HISTORY.md",
+ "license_raw": "BSD-3-Clause",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:06+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "BSD-3-Clause"
+ ],
+ "license_source": "metadata"
+}

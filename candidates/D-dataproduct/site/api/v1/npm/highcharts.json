@@ -1,0 +1,28 @@
+{
+ "ecosystem": "npm",
+ "name": "highcharts",
+ "version": "13.1.1",
+ "health": 100.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 100
+ },
+ "flags": [
+  "license_unknown"
+ ],
+ "reasons": [],
+ "days_since_release": 17,
+ "releases_last_year": 13,
+ "n_releases": 126,
+ "repo_url": "git+https://github.com/highcharts/highcharts-dist.git",
+ "license_raw": "https://www.highcharts.com/license",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:10+00:00",
+ "license_class": "unknown",
+ "license_ids": [],
+ "license_source": "metadata"
+}

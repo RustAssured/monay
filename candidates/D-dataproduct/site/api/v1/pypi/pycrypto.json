@@ -1,0 +1,31 @@
+{
+ "ecosystem": "pypi",
+ "name": "pycrypto",
+ "version": "2.6.1",
+ "health": 39.0,
+ "abandonment_risk": "high",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 80,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [
+  "Last release 4492 days ago.",
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 4492,
+ "releases_last_year": 0,
+ "n_releases": 9,
+ "repo_url": "http://www.pycrypto.org/",
+ "license_raw": "Public domain",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "Unlicense"
+ ],
+ "license_source": "metadata"
+}

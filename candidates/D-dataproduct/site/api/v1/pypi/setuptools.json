@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "setuptools",
+ "version": "84.0.0",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 60,
+ "releases_last_year": 9,
+ "n_releases": 614,
+ "repo_url": "https://github.com/pypa/setuptools",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

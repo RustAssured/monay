@@ -1,0 +1,22 @@
+# Composite GitHub Action customers drop into their own CI (runs on THEIR runner: zero cost to us).
+name: depscore-policy-gate
+description: Fail a build when dependencies are deprecated/abandoned or carry a denied license class.
+inputs:
+  manifest:
+    description: Path to requirements.txt or package.json
+    required: true
+  policy:
+    description: Optional path to a policy JSON (see policy.example.json)
+    required: false
+    default: ""
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with: {python-version: "3.12"}
+    - shell: bash
+      run: |
+        cd "${{ github.action_path }}"
+        ARGS=""
+        if [ -n "${{ inputs.policy }}" ]; then ARGS="--policy $GITHUB_WORKSPACE/${{ inputs.policy }}"; fi
+        python -m depscore scan "$GITHUB_WORKSPACE/${{ inputs.manifest }}" --cache "$RUNNER_TEMP/depscore-cache" $ARGS

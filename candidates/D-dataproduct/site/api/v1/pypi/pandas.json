@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "pandas",
+ "version": "3.0.6",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 19,
+ "releases_last_year": 10,
+ "n_releases": 118,
+ "repo_url": "https://github.com/pandas-dev/pandas",
+ "license_raw": "BSD 3-Clause License",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "BSD-3-Clause"
+ ],
+ "license_source": "classifier"
+}

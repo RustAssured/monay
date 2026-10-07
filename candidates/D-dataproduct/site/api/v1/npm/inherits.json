@@ -1,0 +1,34 @@
+{
+ "ecosystem": "npm",
+ "name": "inherits",
+ "version": "2.0.4",
+ "health": 36.0,
+ "abandonment_risk": "high",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 80,
+  "provenance": 100,
+  "bus_factor": 30
+ },
+ "flags": [
+  "single_maintainer"
+ ],
+ "reasons": [
+  "Only one registry maintainer (bus-factor risk).",
+  "Last release 2667 days ago.",
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 2667,
+ "releases_last_year": 0,
+ "n_releases": 7,
+ "repo_url": "git://github.com/isaacs/inherits.git",
+ "license_raw": "ISC",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:09+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "ISC"
+ ],
+ "license_source": "metadata"
+}

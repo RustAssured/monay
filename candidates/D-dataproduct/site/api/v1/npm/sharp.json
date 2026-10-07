@@ -1,0 +1,32 @@
+{
+ "ecosystem": "npm",
+ "name": "sharp",
+ "version": "0.35.5",
+ "health": 93.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 30
+ },
+ "flags": [
+  "single_maintainer"
+ ],
+ "reasons": [
+  "Only one registry maintainer (bus-factor risk)."
+ ],
+ "days_since_release": 10,
+ "releases_last_year": 26,
+ "n_releases": 194,
+ "repo_url": "git+https://github.com/lovell/sharp.git",
+ "license_raw": "Apache-2.0",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:10+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "Apache-2.0"
+ ],
+ "license_source": "metadata"
+}

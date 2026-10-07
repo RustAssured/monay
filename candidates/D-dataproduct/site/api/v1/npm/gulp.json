@@ -1,0 +1,30 @@
+{
+ "ecosystem": "npm",
+ "name": "gulp",
+ "version": "5.0.1",
+ "health": 65.0,
+ "abandonment_risk": "medium",
+ "components": {
+  "recency": 70,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 70
+ },
+ "flags": [],
+ "reasons": [
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 492,
+ "releases_last_year": 0,
+ "n_releases": 68,
+ "repo_url": "git+https://github.com/gulpjs/gulp.git",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:09+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

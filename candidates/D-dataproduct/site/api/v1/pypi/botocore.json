@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "botocore",
+ "version": "1.43.109",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 0,
+ "releases_last_year": 243,
+ "n_releases": 2530,
+ "repo_url": "https://github.com/boto/botocore",
+ "license_raw": "Apache-2.0",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "Apache-2.0"
+ ],
+ "license_source": "metadata"
+}

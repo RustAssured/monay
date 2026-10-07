@@ -1,0 +1,30 @@
+{
+ "ecosystem": "pypi",
+ "name": "mock",
+ "version": "5.2.0",
+ "health": 64.0,
+ "abandonment_risk": "medium",
+ "components": {
+  "recency": 70,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 583,
+ "releases_last_year": 0,
+ "n_releases": 39,
+ "repo_url": "https://github.com/testing-cabal/mock",
+ "license_raw": "",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "BSD-3-Clause"
+ ],
+ "license_source": "classifier"
+}

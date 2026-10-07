@@ -1,0 +1,31 @@
+{
+ "ecosystem": "pypi",
+ "name": "nose",
+ "version": "1.3.7",
+ "health": 42.0,
+ "abandonment_risk": "high",
+ "components": {
+  "recency": 15,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [
+  "Last release 4145 days ago.",
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 4145,
+ "releases_last_year": 0,
+ "n_releases": 13,
+ "repo_url": "http://readthedocs.org/docs/nose/",
+ "license_raw": "GNU LGPL",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "weak_copyleft",
+ "license_ids": [
+  "LGPL-3.0"
+ ],
+ "license_source": "metadata"
+}

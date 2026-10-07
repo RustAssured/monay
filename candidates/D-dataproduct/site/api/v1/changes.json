@@ -1,0 +1,13 @@
+{
+ "meta": {
+  "generated_at": "2026-10-07T20:56:06+00:00",
+  "method": "2026.10-1",
+  "count": 124,
+  "sources": [
+   "https://pypi.org/pypi/<name>/json",
+   "https://registry.npmjs.org/<name>"
+  ],
+  "license": "Scores: CC-BY-4.0. Underlying metadata belongs to the respective registries/authors."
+ },
+ "changes": []
+}

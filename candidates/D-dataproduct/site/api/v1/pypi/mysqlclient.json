@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "mysqlclient",
+ "version": "2.3.0",
+ "health": 92.2,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 85,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 23,
+ "releases_last_year": 2,
+ "n_releases": 45,
+ "repo_url": "https://github.com/PyMySQL/mysqlclient",
+ "license_raw": "GPL-2.0-or-later",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "strong_copyleft",
+ "license_ids": [
+  "GPL-2.0"
+ ],
+ "license_source": "metadata"
+}

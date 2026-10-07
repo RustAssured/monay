@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "scipy",
+ "version": "1.18.1",
+ "health": 96.0,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 100,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 46,
+ "releases_last_year": 9,
+ "n_releases": 101,
+ "repo_url": "https://github.com/scipy/scipy/releases",
+ "license_raw": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "BSD-3-Clause"
+ ],
+ "license_source": "metadata"
+}

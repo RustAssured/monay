@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "ruamel.yaml",
+ "version": "0.19.1",
+ "health": 92.2,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 85,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 278,
+ "releases_last_year": 4,
+ "n_releases": 271,
+ "repo_url": "https://yaml.dev/doc/ruamel.yaml",
+ "license_raw": "MIT",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:08+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}

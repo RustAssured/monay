@@ -1,0 +1,31 @@
+{
+ "ecosystem": "pypi",
+ "name": "PyQt5",
+ "version": "5.15.11",
+ "health": 52.0,
+ "abandonment_risk": "high",
+ "components": {
+  "recency": 40,
+  "cadence": 20,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [
+  "Last release 810 days ago.",
+  "No releases in the past 12 months."
+ ],
+ "days_since_release": 810,
+ "releases_last_year": 0,
+ "n_releases": 35,
+ "repo_url": "https://www.riverbankcomputing.com/software/pyqt/",
+ "license_raw": "GPL v3",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "strong_copyleft",
+ "license_ids": [
+  "GPL-3.0"
+ ],
+ "license_source": "metadata"
+}

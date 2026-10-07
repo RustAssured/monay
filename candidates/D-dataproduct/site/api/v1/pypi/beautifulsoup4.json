@@ -1,0 +1,28 @@
+{
+ "ecosystem": "pypi",
+ "name": "beautifulsoup4",
+ "version": "4.15.0",
+ "health": 92.2,
+ "abandonment_risk": "low",
+ "components": {
+  "recency": 100,
+  "cadence": 85,
+  "maturity": 100,
+  "provenance": 100,
+  "bus_factor": 60
+ },
+ "flags": [],
+ "reasons": [],
+ "days_since_release": 122,
+ "releases_last_year": 2,
+ "n_releases": 53,
+ "repo_url": "https://www.crummy.com/software/BeautifulSoup/bs4/download/",
+ "license_raw": "MIT License",
+ "method": "2026.10-1",
+ "fetched_at": "2026-10-07T20:56:07+00:00",
+ "license_class": "permissive",
+ "license_ids": [
+  "MIT"
+ ],
+ "license_source": "metadata"
+}
